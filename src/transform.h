@@ -41,7 +41,7 @@ inline void spherical_matrix(float theta, float phi, Eigen::Matrix4f &mat)
     // theta: float, rotation angle in radians around positive y axis
     // phi:   float, rotation angle in radians around positive z axis
 
-    // Returns
+    // Returns// normal that transform the original mesh to XY plane that gives OBB
     // ----------
     // matrix: (4,4) rotation matrix where the following will
     //          be a cartesian vector in the direction of the
@@ -203,8 +203,20 @@ inline void look_at(const Eigen::Vector3f &eye,
     view(2, 3) = -f.dot(eye);
 }
 
-void ortho_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f &proj)
+inline void ortho_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f &proj)
 {
+    // Just scale the Cuboid to NDC
+    //translate to center, then scale to [-1, 1]
+    //translate to center
+    // {0, 0, 0, -(r+l)/2,
+    //  0, 0, 0, -(t+b)/2,
+    //  0, 0, 0, -(n+f)/2,
+    //  0, 0, 0, 1}
+    //scale
+    // {2/(r-l), 0, 0, 0,
+    //  0, 2/(t-b), 0, 0,
+    //  0, 0, 2/(n-f), 0,
+    //  0, 0, 0, 1}
     proj = Eigen::Matrix4f::Identity();
     proj(0, 0) = 1.0 / r;
     proj(1, 1) = 1.0 / t;
@@ -212,8 +224,9 @@ void ortho_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f &proj
     proj(2, 3) = -(zFar + zNear) / (zFar - zNear);
 }
 
-void perspective_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f &proj)
+inline void perspective_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f &proj)
 {
+    // perspective_proj = NDC x Perspective (Frustum)
     assert(zNear > 0 && "You should not place the near plane at zero position, nothing will show!");
     proj = Eigen::Matrix4f::Identity();
     proj(0, 0) = zNear / r;
@@ -221,4 +234,23 @@ void perspective_proj(float r, float t, float zNear, float zFar, Eigen::Matrix4f
     proj(2, 2) = -(zFar + zNear) / (zFar - zNear);
     proj(2, 3) = -2 * zFar * zNear / (zFar - zNear);
     proj(3, 2) = -1;
+}
+
+inline void inverse_extrinsic_matrix(const Eigen::Matrix3f &R,
+                                     const Eigen::Vector3f &C,
+                                     Eigen::Matrix4f &M)
+{
+    // R: camera's orientation respect to world coordinate axes
+    // C: camera's center in world coordinate
+    // M = [R | C].inverse = [R.T | -R.T*C]
+    // How the camera changes relative to the world
+    using namespace Eigen;
+    M = Matrix4f::Identity();
+
+    M.block(0, 0, 3, 3) = R.transpose();
+    M.block(0, 3, 3, 1) = -R.transpose() * C;
+
+    // M.block(0, 0, 3, 3) = R;
+    // M.block(0, 3, 3, 1) = C;
+    // M = M.inverse().eval();
 }

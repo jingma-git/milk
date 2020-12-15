@@ -10,7 +10,7 @@
 #include <igl/unique.h>
 #include <igl/per_face_normals.h>
 #include <igl/copyleft/cgal/convex_hull.h>
-#include "transform.hpp"
+#include "transform.h"
 #include "unique_rows.h"
 
 using namespace std;
@@ -116,9 +116,9 @@ void oriented_bounds_2d(const Eigen::MatrixX2d &V, double &x_span, double &y_spa
 int main(int argc, char **argv)
 {
     using namespace Eigen;
-    MatrixXd V, CvxV, CvxN, OrientedCvxN, spherical_coords;
+    MatrixXf V, CvxV, CvxN, OrientedCvxN, spherical_coords;
     MatrixXi F, CvxF;
-    Eigen::Matrix<double, Eigen::Dynamic, 4> V4d, CvxV4d;
+    Eigen::Matrix<float, Eigen::Dynamic, 4> V4d, CvxV4d;
     // igl::readOFF("./data/cube.off", V, F);
     std::string obj_name = std::string(argv[1]);
     igl::readOBJ("./data/parts/" + obj_name + ".obj", V, F);
@@ -143,22 +143,22 @@ int main(int argc, char **argv)
     // cout << spherical_coords << endl;
     unique_rows(spherical_coords, row_index);
     double min_volume = std::numeric_limits<double>::max();
-    Eigen::Vector3d min_extents;
-    Eigen::Matrix4d min_2D;
-    Eigen::Matrix4d rotation_Z;
+    Eigen::Vector3f min_extents;
+    Eigen::Matrix4f min_2D;
+    Eigen::Matrix4f rotation_Z;
     for (int i = 0; i < row_index.rows(); i++)
     {
         int r_idx = row_index(i);
         double theta = spherical_coords(r_idx, 0);
         double phi = spherical_coords(r_idx, 1);
         // to_2D: matrices which will rotate each hull normal to [0,0,1]
-        Eigen::Matrix4d S, to_2D;
+        Eigen::Matrix4f S, to_2D;
         spherical_matrix(theta, phi, S);
         to_2D = S.inverse();
 
-        Eigen::MatrixX3d projected = ((to_2D * CvxV4d.transpose()).transpose()).block(0, 0, CvxV4d.rows(), 3);
+        Eigen::MatrixX3f projected = ((to_2D * CvxV4d.transpose()).transpose()).block(0, 0, CvxV4d.rows(), 3);
         double height = projected.col(2).maxCoeff() - projected.col(2).minCoeff();
-        Eigen::Matrix3d rotation_2D;
+        Eigen::Matrix3f rotation_2D;
         double box_x, box_y;
         oriented_bounds_2d(projected.block(0, 0, projected.rows(), 2), box_x, box_y, rotation_2D, i);
         double volume = box_x * box_y * height;
@@ -170,7 +170,7 @@ int main(int argc, char **argv)
             min_2D = to_2D;
             rotation_2D(0, 2) = 0.0;
             rotation_2D(1, 2) = 0.0;
-            Eigen::Matrix4d rotation_3D;
+            Eigen::Matrix4f rotation_3D;
             planar_matrix_to_3D(rotation_2D, rotation_3D);
             rotation_Z = rotation_3D;
             cout << "----------------------->>>>Rotation\n"
@@ -179,13 +179,13 @@ int main(int argc, char **argv)
                  << min_2D << endl;
 
             // # combine the 2D OBB transformation with the 2D projection transform
-            Eigen::Matrix4d to_origin = rotation_Z * min_2D;
+            Eigen::Matrix4f to_origin = rotation_Z * min_2D;
 
             // # transform points using our matrix to find the translation for the
             // # transform
-            Eigen::MatrixX3d transformedCvxV = (to_origin * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
-            igl::writeOBJ("./result/cvx_proj_" + std::to_string(i) + "_" + obj_name + ".obj", projected, CvxF);
-            igl::writeOBJ("./result/cvx_rot_" + std::to_string(i) + "_" + obj_name + ".obj", transformedCvxV, CvxF);
+            Eigen::MatrixX3f transformedCvxV = (to_origin * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
+            // igl::writeOBJ("./result/cvx_proj_" + std::to_string(i) + "_" + obj_name + ".obj", projected, CvxF);
+            // igl::writeOBJ("./result/cvx_rot_" + std::to_string(i) + "_" + obj_name + ".obj", transformedCvxV, CvxF);
         }
     }
 
@@ -194,13 +194,13 @@ int main(int argc, char **argv)
     cout << "----------------------->>>>Final min_2D\n"
          << min_2D << endl;
     // # combine the 2D OBB transformation with the 2D projection transform
-    Eigen::Matrix4d to_origin = rotation_Z * min_2D;
+    Eigen::Matrix4f to_origin = rotation_Z * min_2D;
 
     // # transform points using our matrix to find the translation for the
     // # transform
-    Eigen::MatrixX3d transformedCvxV = (to_origin * CvxV4d.transpose()).transpose().block(0, 0, CvxV4d.rows(), 3);
+    Eigen::MatrixX3f transformedCvxV = (to_origin * CvxV4d.transpose()).transpose().block(0, 0, CvxV4d.rows(), 3);
     auto box_extents = transformedCvxV.colwise().maxCoeff() - transformedCvxV.colwise().minCoeff();
-    Eigen::Vector3d box_center = transformedCvxV.colwise().minCoeff() + 0.5 * box_extents;
+    Eigen::Vector3f box_center = transformedCvxV.colwise().minCoeff() + 0.5 * box_extents;
     to_origin.block(0, 3, 3, 1) = -box_center;
     cout << "min volume: " << min_volume << endl;
     cout << "min_extents: " << min_extents << "\n box extents: " << box_extents << endl;
