@@ -14,23 +14,37 @@ option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
 option(LIBIGL_WITH_TRIANGLE           "Use Triangle"      ON)
 # option(LIBIGL_WITH_OPENGL_GLFW_IMGUI        "Use ImgGui"      ON)
 
-set(CGAL_DIR "/home/server/MaJing/cpp/CGAL-5.1-beta2")
-find_package(CGAL REQUIRED)
 find_package(LIBIGL REQUIRED)
 
-# Add your project files
+# set(CGAL_DIR "/home/server/MaJing/cpp/CGAL-5.1-beta2")
+# find_package(CGAL REQUIRED)
+
+# find_package(Boost REQUIRED)
+
+# find_package(OpenCV REQUIRED)
+
+# --------------------------------------Add your project files--------------------------------
+# ---------------------------Bounded Bihamonic Weights
 # file(GLOB SRCFILES bbw.cpp)
 # add_executable(main bbw.cpp)
 # target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 
-# find_package(Boost REQUIRED)
+# ---------------------------'template' and 'typename' keywords
 # add_executable(main template.cpp)
 
-find_package(OpenCV REQUIRED)
+# --------------------------- optimal bounding box
+# include_directories(src/)
+# file(GLOB SRC src/*.cpp)
+# add_executable(main view_obb.cpp ${SRC})
+# target_link_libraries(main igl::core CGAL::CGAL ${OpenCV_LIBRARIES})
 
-include_directories(src/)
-file(GLOB SRC src/*.cpp)
-add_executable(main render.cpp ${SRC})
-target_link_libraries(main igl::core CGAL::CGAL ${OpenCV_LIBRARIES})
+# ---------------------------  OpenGL visulization
+# add_executable(gui gui.cpp)
+# target_link_libraries(gui igl::core igl::opengl igl::opengl_glfw)
 
-# add_executable(main test.cpp)
+# ---------------------------   monster mash
+add_executable(main monster_mash.cpp)
+target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+
+# ---------------------------   Test
+# add_executable(test test.cpp)

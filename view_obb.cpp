@@ -13,15 +13,24 @@
 #include <opencv2/opencv.hpp>
 #include "unique_rows.h"
 #include "transform.h"
-using namespace std;
+#include "rasterizer.h"
+#include "matrix_to_list.h"
+using namespace Eigen;
 
 // Implement Optimal Bounding Box with igl and Eigen
 // How many ToyParts's real_obb lies in the view giving the maximum projection mask area?
 // What's the difference between max_area_view_obb, min_volume_view_obb and real_obb?
 // What if trying to rotate under max_area_view to find OBB?
 
-std::string view_names[6] = {"front", "back", "left", "right", "top", "bottom"};
-enum VIEW
+const int WIDTH = 64;
+const int HEIGHT = 64;
+enum Proj
+{
+    Ortho = 0,
+    Perspective
+};
+
+enum View
 {
     FRONT = 0,
     BACK,
@@ -30,6 +39,37 @@ enum VIEW
     TOP,
     BOTTOM,
     NUMS
+};
+std::string view_names[6] = {"front", "back", "left", "right", "top", "bottom"};
+
+std::vector<Vector3f> eye_pos = {
+    {0, 0, 2},
+    {0, 0, -2},
+    {-2, 0, 0},
+    {2, 0, 0},
+    {0, 2, 0},
+    {0, -2, 0}};
+std::vector<Vector3f> up_dir = {
+    {0, 1, 0},
+    {0, 1, 0},
+    {0, 1, 0},
+    {0, 1, 0},
+    {0, 0, -1},
+    {0, 0, 1}};
+std::vector<Vector3f> view_normal = { // view normal // theta, phi
+    {0, 0, 1},                        //front view
+    {0, 0, -1},                       //back
+    {-1, 0, 0},                       //left
+    {1, 0, 0},                        //right
+    {0, 1, 0},                        // top
+    {0, -1, 0}};                      //bottom
+
+struct OBB
+{
+    Eigen::Vector3f extents;
+    Eigen::Matrix4f transform;
+    Eigen::Vector3f proj_normal;      // normal that transform the original mesh to XY plane that gives OBB
+    Eigen::Vector2f spherical_coords; // spherical coords that transform the original mesh to XY plane that gives OBB
 };
 
 void oriented_bounds_2d(const Eigen::MatrixX2f &V, float &x_span, float &y_span, Eigen::Matrix3f &M, int debug_i = -1)
@@ -130,16 +170,20 @@ void oriented_bounds_2d(const Eigen::MatrixX2f &V, float &x_span, float &y_span,
 template <typename T>
 void transform_to_origin(const Eigen::DenseBase<T> &CvxV4d,
                          Eigen::Matrix4f &to_origin,
-                         Eigen::Vector3f &min_extents, float &obb_x, float &obb_y, float &obb_z,
+                         Eigen::Vector3f &min_extents,
                          bool align_axis = true)
 {
+    //Input: Points
+    //Output
+    // to_origin: transformation matrix to transform the input points to world origin
+    // min_extents:
+    using namespace std;
     // # transform points using our matrix to find the translation for the
-    // # transform
     Eigen::MatrixX3f transformedCvxV = (to_origin * CvxV4d.transpose()).transpose().block(0, 0, CvxV4d.rows(), 3);
     auto box_extents = transformedCvxV.colwise().maxCoeff() - transformedCvxV.colwise().minCoeff();
     Eigen::Vector3f box_center = transformedCvxV.colwise().minCoeff() + 0.5 * box_extents;
     to_origin.block(0, 3, 3, 1) = -box_center;
-    cout << "min_extents: " << min_extents << "\n box extents: " << box_extents << endl;
+    cout << "min_extents: " << min_extents.transpose() << "\nbox extents: " << box_extents << endl;
 
     if (align_axis)
     {
@@ -165,17 +209,12 @@ void transform_to_origin(const Eigen::DenseBase<T> &CvxV4d,
         cout << "flip:\n"
              << flip << endl;
         to_origin = flip * to_origin;
-        obb_x = min_extents(max_order);
-        obb_y = min_extents(middle_order);
-        obb_z = min_extents(min_order);
-        cout << "obb: " << obb_x << ", " << obb_y << ", " << obb_z << endl;
-        cout << "to_origin:\n"
-             << to_origin << endl;
     }
 }
 
 void view_obb_min_volume(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std::string obj_name = "")
 {
+    using namespace std;
     // select the view whose obb volume is minumm
     float min_volume = std::numeric_limits<float>::max();
     float max_area = std::numeric_limits<float>::min();
@@ -183,7 +222,7 @@ void view_obb_min_volume(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, s
     Eigen::Matrix4f min_2D;
     Eigen::Matrix4f rotation_Z;
 
-    for (int i = 0; i < VIEW::NUMS; i++)
+    for (int i = 0; i < View::NUMS; i++)
     {
 
         // to_2D: matrices which will rotate each hull normal to [0,0,1]
@@ -252,19 +291,20 @@ void view_obb_min_volume(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, s
     }
 }
 
-int view_obb_max_area(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std::string obj_name = "")
+int view_obb_max_area(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, int best_view_id = View::FRONT, std::string obj_name = "")
 {
+    using namespace std;
     using namespace Eigen;
     // select the view whose mask area is maximum
     // return best_view_id
-    int best_view_id = VIEW::FRONT;
     float min_volume = std::numeric_limits<float>::max();
     float max_area = std::numeric_limits<float>::min();
     Eigen::Vector3f min_extents;
     Eigen::Matrix4f min_2D;
     Eigen::Matrix4f rotation_Z;
 
-    for (int i = 0; i < VIEW::NUMS; i++)
+    int i = best_view_id;
+    // for (int i = 0; i < View::NUMS; i++)
     {
 
         // to_2D: matrices which will rotate each hull normal to [0,0,1]
@@ -295,7 +335,6 @@ int view_obb_max_area(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std:
         }
 
         to_2D = S;
-
         Eigen::MatrixX3f projected = ((to_2D * V4d.transpose()).transpose()).block(0, 0, V4d.rows(), 3);
         float height = projected.col(2).maxCoeff() - projected.col(2).minCoeff();
         Eigen::Matrix3f rotation_2D;
@@ -320,12 +359,11 @@ int view_obb_max_area(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std:
 
     // # combine the 2D OBB transformation with the 2D projection transform
     Eigen::Matrix4f to_origin = rotation_Z * min_2D;
-    float obb_x, obb_y, obb_z;
-    transform_to_origin(V4d, to_origin, min_extents, obb_x, obb_y, obb_z, false);
+    transform_to_origin(V4d, to_origin, min_extents, false);
 
     if (obj_name != "")
     {
-        cout << "best_view: " << view_names[best_view_id] << endl;
+        // cout << "best_view: " << view_names[best_view_id] << endl;
         // # transform points using our matrix to find the translation for the
         MatrixX3f projV = (min_2D * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
         igl::writeOBJ("./result/max_area_proj_" + std::to_string(best_view_id) + "_" + obj_name + ".obj", projV, F);
@@ -337,25 +375,17 @@ int view_obb_max_area(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std:
     return best_view_id;
 }
 
-int obb(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std::string obj_name = "")
+OBB obb(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std::string obj_name = "")
 {
     // return best_view_id which gives the minimum volume OBB
-
     using namespace std;
-    using namespace Eigen;
 
-    int best_view_id = VIEW::FRONT;
-    MatrixXf ViewN(6, 3); // view normal // theta, phi
-    ViewN << 0, 0, 1,     //front view
-        0, 0, -1,         //back
-        -1, 0, 0,         //left
-        1, 0, 0,          //right
-        0, 1, 0,          // top
-        0, -1, 0;         //bottom
-    MatrixXf CvxV, CvxN;
+    int best_view_id = View::FRONT;
+    MatrixXf CvxV, CvxN, OrientedCvxN, spherical_coords;
     MatrixXi CvxF;
     Eigen::Matrix<float, Eigen::Dynamic, 4> CvxV4d;
 
+    //-----------------------Extract ConvexHull-----------------------------------
     igl::copyleft::cgal::convex_hull(V4d.block(0, 0, V4d.rows(), 3), CvxV, CvxF);
     igl::per_face_normals(CvxV, CvxF, CvxN);
     CvxV4d.resize(CvxV.rows(), 4);
@@ -363,26 +393,159 @@ int obb(const Eigen::MatrixXf &V4d, const Eigen::MatrixXi &F, std::string obj_na
     CvxV4d.col(3) = Eigen::VectorXf::Ones(CvxV4d.rows());
     cout << "CvxV, CvxF=" << CvxV.rows() << ", " << CvxF.rows() << "x" << CvxF.cols() << endl;
 
-    return best_view_id;
+    //-----------------------Extract Normal to Project 3D to 2D---------------------
+    vector_hemisphere(CvxN, OrientedCvxN);
+    vector_to_spherical(OrientedCvxN, spherical_coords);
+    MatrixXi row_index;
+    unique_rows(spherical_coords, row_index);
+
+    //-----------------------Extract OBB---------------------------------------------
+    float min_volume = std::numeric_limits<float>::max();
+    Eigen::Vector3f min_extents;
+    Eigen::Matrix4f min_2D;
+    Eigen::Matrix4f rotation_Z;
+    Eigen::Vector3f obbN; // normal vector under OBB
+    for (int i = 0; i < row_index.rows(); i++)
+    {
+        int r_idx = row_index(i);
+        float theta = spherical_coords(r_idx, 0);
+        float phi = spherical_coords(r_idx, 1);
+        // to_2D: matrices which will rotate each hull normal to [0,0,1]
+        Eigen::Matrix4f S, to_2D;
+        spherical_matrix(theta, phi, S);
+        to_2D = S.inverse();
+
+        Eigen::MatrixX3f projected = ((to_2D * CvxV4d.transpose()).transpose()).block(0, 0, CvxV4d.rows(), 3);
+        float height = projected.col(2).maxCoeff() - projected.col(2).minCoeff();
+        Eigen::Matrix3f rotation_2D;
+        float box_x, box_y;
+        oriented_bounds_2d(projected.block(0, 0, projected.rows(), 2), box_x, box_y, rotation_2D, i);
+        float volume = box_x * box_y * height;
+        if (volume < min_volume)
+        {
+            // printf("%d volume=%.6f box_x:%.6f box_y:%.6f height:%.6f\n", i, volume, box_x, box_y, height);
+            obbN.array() = OrientedCvxN.row(i).array();
+            min_volume = volume;
+            min_extents = {box_x, box_y, height};
+            min_2D = to_2D;
+            rotation_2D(0, 2) = 0.0;
+            rotation_2D(1, 2) = 0.0;
+            Eigen::Matrix4f rotation_3D;
+            planar_matrix_to_3D(rotation_2D, rotation_3D);
+            rotation_Z = rotation_3D;
+            // cout << "----------------------->>>>Rotation\n"
+            //      << rotation_Z << endl;
+            // cout << "----------------------->>>>min_2D\n"
+            //      << min_2D << endl;
+
+            // # combine the 2D OBB transformation with the 2D projection transform
+            Eigen::Matrix4f to_origin = rotation_Z * min_2D;
+
+            // # transform points using our matrix to find the translation for the
+            // Eigen::MatrixX3f transformedCvxV = (to_origin * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
+            // igl::writeOBJ("./result/cvx_proj_" + std::to_string(i) + "_" + obj_name + ".obj", projected, CvxF);
+            // igl::writeOBJ("./result/cvx_rot_" + std::to_string(i) + "_" + obj_name + ".obj", transformedCvxV, CvxF);
+        }
+    }
+
+    cout << "----------------------->>>>Final Rotation\n"
+         << rotation_Z << endl;
+    cout << "----------------------->>>>Final min_2D\n"
+         << min_2D << endl;
+    // # combine the 2D OBB transformation with the 2D projection transform
+    Eigen::Matrix4f to_origin = rotation_Z * min_2D;
+
+    transform_to_origin(V4d, to_origin, min_extents, true);
+
+    Eigen::MatrixX3f transformedProjV = (min_2D * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
+    igl::writeOBJ("./result/proj_rot_" + obj_name + "_final.obj", transformedProjV, F);
+    Eigen::MatrixX3f transformedV = (to_origin * V4d.transpose()).transpose().block(0, 0, V4d.rows(), 3);
+    igl::writeOBJ("./result/rot_" + obj_name + "_final.obj", transformedV, F);
+
+    return {min_extents, to_origin, obbN};
+}
+
+void renderMasks(const std::vector<Vector3f> &v_list, const std::vector<Vector3i> &f_list, std::vector<cv::Mat> &masks)
+{
+    using namespace rst;
+    Rasterizer rasterizer(WIDTH, HEIGHT);
+    PosBufId pos_buf = rasterizer.load_positions(v_list);
+    IndBufId ind_buf = rasterizer.load_indices(f_list);
+
+    Matrix4f model = Matrix4f::Identity();
+    Matrix4f proj;
+    ortho_proj(1.5, 1.5, 0.1, 5, proj);
+    for (int view_mode = 0; view_mode < View::NUMS; view_mode++)
+    {
+        Matrix4f view;
+        Vector3f eye = eye_pos[view_mode], target(0, 0, 0), up = up_dir[view_mode];
+        look_at(eye, target, up, view);
+
+        rasterizer.set_model(model);
+        rasterizer.set_view(view);
+        rasterizer.set_projection(proj);
+
+        rasterizer.clear(Buffers::Color | Buffers::Depth);
+        rasterizer.draw(pos_buf, ind_buf);
+        cv::Mat img(HEIGHT, WIDTH, CV_32FC3, rasterizer.frame_buf.data());
+        cv::cvtColor(img, img, cv::COLOR_RGB2GRAY);
+        masks.push_back(img);
+    }
 }
 
 int main(int argc, char **argv)
 {
+    using namespace std;
     using namespace Eigen;
     MatrixXf V;
     MatrixXi F;
+    vector<Vector3f> v_list;
+    vector<Vector3i> f_list;
+    vector<cv::Mat> masks;
 
     // igl::readOFF("./data/cube.off", V, F);
     std::string obj_name = std::string(argv[1]);
     igl::readOBJ("./data/parts/" + obj_name + ".obj", V, F);
     cout << "V, F=" << V.rows() << ", " << F.rows() << endl;
-    cout << V.row(0) << endl;
+    matrix_to_list(V, v_list);
+    matrix_to_list(F, f_list);
+    renderMasks(v_list, f_list, masks);
 
-    // Eigen::Matrix<float, Eigen::Dynamic, 4> V4d;
-    // V4d.resize(V.rows(), 4);
-    // V4d.block(0, 0, V.rows(), 3) = V;
-    // V4d.col(3) = Eigen::VectorXf::Ones(V4d.rows());
-    // view_obb_max_area(V4d, F, obj_name);
-    // obb(V4d, F, obj_name);
+    // select the view where the mask is largest
+    int max_area = std::numeric_limits<int>::min();
+    int viewid_max_area = 0;
+    for (int view_id = 0; view_id < View::NUMS; view_id++)
+    {
+        int area = cv::countNonZero(masks[view_id]);
+        if (area > max_area)
+        {
+            max_area = area;
+            viewid_max_area = view_id;
+        }
+    }
+    cout << "max area view: " << view_names[viewid_max_area] << endl;
+
+    Eigen::Matrix<float, Dynamic, 4> V4d;
+    V4d.resize(V.rows(), 4);
+    V4d.block(0, 0, V.rows(), 3) = V;
+    V4d.col(3) = Eigen::VectorXf::Ones(V4d.rows());
+    view_obb_max_area(V4d, F, viewid_max_area, obj_name);
+    OBB obb_res = obb(V4d, F, obj_name);
+    // get the view that OBB is extracted
+    float min_angle = std::numeric_limits<float>::max();
+    int obb_view_id = View::FRONT;
+    for (int i = 0; i < View::NUMS; i++)
+    {
+        float angle = obb_res.proj_normal.dot(view_normal[i]);
+        if (angle > 0)
+        {
+            if (angle < min_angle)
+            {
+                min_angle = angle;
+                obb_view_id = i;
+            }
+        }
+    }
+    cout << "obb view: " << view_names[obb_view_id] << endl;
     return 0;
 }
