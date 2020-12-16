@@ -7,6 +7,7 @@
 #include <igl/doublearea.h>
 #include <igl/massmatrix.h>
 #include <igl/slice_into.h>
+#include <igl/min_quad_with_fixed.h>
 
 #include <igl/opengl/glfw/Viewer.h>
 
@@ -67,15 +68,17 @@ int main()
     igl::setdiff(all, b, in, IA);
 
     // Construct and slice up Laplacian
-    SparseMatrix<double> L, L_all_in;
+    SparseMatrix<double> L, L_all_in, L_in_in, L_in_b;
     igl::cotmatrix(V, F, L);
     igl::slice(L, all, in, L_all_in);
-    cout << L << endl;
-    cout << L_all_in << endl;
+    igl::slice(L, in, in, L_in_in);
+    igl::slice(L, in, b, L_in_b);
+    //cout << L << endl;
+    cout << "L_all_in: " << L_all_in.rows() << ", " << L_all_in.cols() << endl;
 
     // Dirichlet boundary conditions from height-field
-    VectorXd bc;
-    VectorXd h; //height field
+    VectorXd bc = VectorXd::Zero(b.rows());
+    VectorXd h, h_in; //height field
     //
     SparseMatrix<double> M;
     igl::massmatrix(V, F, igl::MASSMATRIX_TYPE_BARYCENTRIC, M);
@@ -85,18 +88,34 @@ int main()
     {
         h(b(i)) = 0.0;
     }
-    // cout << "height" << endl;
-    // cout << h << endl;
+    cout << "height" << endl;
+    cout << h.rows() << endl;
 
-    // // solve PDE
-    Eigen::SparseQR<Eigen::SparseMatrix<double>, COLAMDOrdering<int>> solver(-L_all_in);
-    VectorXd h_sol = solver.solve(h);
+    // // Solution 1: QR Decomposition solve PDE
+    // Eigen::SparseQR<Eigen::SparseMatrix<double>, COLAMDOrdering<int>> solver(-L_all_in);
+    // VectorXd h_sol = solver.solve(h);
 
-    for (int i = 0; i < in.rows(); i++)
-    {
-        V(in(i), 2) = h_sol(i);
-        cout << i << ": " << V(in(i), 2) << endl;
-    }
+    // // Solution 2: LLT
+    // Eigen::SimplicialLLT<Eigen::SparseMatrix<double>> llt(-L_in_in);
+    // igl::slice(h, in, 1, h_in);
+    // VectorXd rhs = L_in_b * bc + h_in;
+    // VectorXd h_sol = llt.solve(rhs);
+
+    // for (int i = 0; i < in.rows(); i++)
+    // {
+    //     V(in(i), 2) = h_sol(i);
+    //     cout << i << ": " << V(in(i), 2) << endl;
+    // }
+
+    // equivalent Quadratic Programming
+    igl::min_quad_with_fixed_data<double> mqwf;
+    // Empty constraints
+    VectorXd Beq;
+    SparseMatrix<double> Aeq;
+    VectorXd z;
+    igl::min_quad_with_fixed_precompute((-L).eval(), b, Aeq, true, mqwf);
+    igl::min_quad_with_fixed_solve(mqwf, (-h).eval(), bc, Beq, z);
+    V.col(2) = z;
 
     // copy
     // Plot the mesh with pseudocolors
