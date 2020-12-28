@@ -12,13 +12,13 @@
 #include "cat.h"
 #include <iostream>
 
-template<typename DerivedV, typename DerivedF, typename DerivedK>
+template <typename DerivedV, typename DerivedF, typename DerivedK>
 IGL_INLINE void igl::arap_rhs(
-    const Eigen::MatrixBase<DerivedV> & V,
-    const Eigen::MatrixBase<DerivedF> & F,
+    const Eigen::MatrixBase<DerivedV> &V,
+    const Eigen::MatrixBase<DerivedF> &F,
     const int dim,
     const igl::ARAPEnergyType energy,
-    Eigen::SparseCompressedBase<DerivedK>& K)
+    Eigen::SparseCompressedBase<DerivedK> &K)
 {
   using namespace std;
   using namespace Eigen;
@@ -30,66 +30,72 @@ IGL_INLINE void igl::arap_rhs(
   //int m = F.rows();
   //// number of rotations
   //int nr;
-  switch(energy)
+  switch (energy)
   {
-    case ARAP_ENERGY_TYPE_SPOKES:
-      //nr = n;
-      break;
-    case ARAP_ENERGY_TYPE_SPOKES_AND_RIMS:
-      //nr = n;
-      break;
-    case ARAP_ENERGY_TYPE_ELEMENTS:
-      //nr = m;
-      break;
-    default:
-      fprintf(
+  case ARAP_ENERGY_TYPE_SPOKES:
+    //nr = n;
+    break;
+  case ARAP_ENERGY_TYPE_SPOKES_AND_RIMS:
+    //nr = n;
+    break;
+  case ARAP_ENERGY_TYPE_ELEMENTS:
+    //nr = m;
+    break;
+  default:
+    fprintf(
         stderr,
         "arap_rhs.h: Error: Unsupported arap energy %d\n",
         energy);
-      return;
-  }
-
-  DerivedK KX,KY,KZ;
-  arap_linear_block(V,F,0,energy,KX);
-  arap_linear_block(V,F,1,energy,KY);
-  if(Vdim == 2)
-  {
-    K = cat(2,repdiag(KX,dim),repdiag(KY,dim));
-  }else if(Vdim == 3)
-  {
-    arap_linear_block(V,F,2,energy,KZ);
-    if(dim == 3)
-    {
-      K = cat(2,cat(2,repdiag(KX,dim),repdiag(KY,dim)),repdiag(KZ,dim));
-    }else if(dim ==2)
-    {
-      DerivedK ZZ(KX.rows()*2,KX.cols());
-      K = cat(2,cat(2,
-            cat(2,repdiag(KX,dim),ZZ),
-            cat(2,repdiag(KY,dim),ZZ)),
-            cat(2,repdiag(KZ,dim),ZZ));
-    }else
-    {
-      assert(false);
-      fprintf(
-      stderr,
-      "arap_rhs.h: Error: Unsupported dimension %d\n",
-      dim);
-    }
-  }else
-  {
-    assert(false);
-    fprintf(
-     stderr,
-     "arap_rhs.h: Error: Unsupported dimension %d\n",
-     Vdim);
     return;
   }
 
+  DerivedK KX, KY, KZ;
+  arap_linear_block(V, F, 0, energy, KX);
+  arap_linear_block(V, F, 1, energy, KY);
+  if (Vdim == 2)
+  {
+    K = cat(2, repdiag(KX, dim), repdiag(KY, dim));
+  }
+  else if (Vdim == 3)
+  {
+    arap_linear_block(V, F, 2, energy, KZ);
+    if (dim == 3)
+    {
+      // cout << "KX" << endl;
+      // cout << KX.toDense() << endl;
+      // cout << "KY" << endl;
+      // cout << KY.toDense() << endl;
+      // cout << "KZ" << endl;
+      // cout << KZ.toDense() << endl;
+
+      K = cat(2, cat(2, repdiag(KX, dim), repdiag(KY, dim)), repdiag(KZ, dim));
+    }
+    else if (dim == 2)
+    {
+      DerivedK ZZ(KX.rows() * 2, KX.cols());
+      K = cat(2, cat(2, cat(2, repdiag(KX, dim), ZZ), cat(2, repdiag(KY, dim), ZZ)),
+              cat(2, repdiag(KZ, dim), ZZ));
+    }
+    else
+    {
+      assert(false);
+      fprintf(
+          stderr,
+          "arap_rhs.h: Error: Unsupported dimension %d\n",
+          dim);
+    }
+  }
+  else
+  {
+    assert(false);
+    fprintf(
+        stderr,
+        "arap_rhs.h: Error: Unsupported dimension %d\n",
+        Vdim);
+    return;
+  }
 }
 
-
-
 #ifdef IGL_STATIC_LIBRARY
-template void igl::arap_rhs(const Eigen::MatrixBase<Eigen::MatrixXd> & V, const Eigen::MatrixBase<Eigen::MatrixXi> & F,const int dim, const igl::ARAPEnergyType energy,Eigen::SparseCompressedBase<Eigen::SparseMatrix<double>>& K);
+template void igl::arap_rhs(const Eigen::MatrixBase<Eigen::MatrixXd> &V, const Eigen::MatrixBase<Eigen::MatrixXi> &F, const int dim, const igl::ARAPEnergyType energy, Eigen::SparseCompressedBase<Eigen::SparseMatrix<double>> &K);
 #endif

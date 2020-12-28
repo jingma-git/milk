@@ -98,8 +98,49 @@ void testCamera()
     inverse_extrinsic_matrix(R, center, M);
     cout << M << endl;
 }
+
+void testQR()
+{
+    typedef typename Eigen::Triplet<double> T;
+    SparseMatrix<double> Q(2, 2), A, Q_, R_;
+    double theta = M_PI / 4.0;
+    vector<T> data;
+    data.push_back(T(0, 0, cos(theta)));
+    data.push_back(T(0, 1, -sin(theta)));
+    data.push_back(T(1, 0, sin(theta)));
+    data.push_back(T(1, 1, cos(theta)));
+    Q.setFromTriplets(data.begin(), data.end());
+    cout << Q.toDense() << endl;
+    Q = 1 / sqrt(2) * Q;
+    A = 2 * Q;
+
+    SparseQR<SparseMatrix<double>, COLAMDOrdering<int>> solver;
+    solver.compute(A);
+    if (solver.info() == Success)
+    {
+        cout << "rank:" << solver.rank() << endl;
+        MatrixXd q = solver.matrixQ();
+        MatrixXd r = solver.matrixR();
+        cout << "Q:\n"
+             << q << endl;
+        cout << "R:\n"
+             << r << endl;
+        VectorXd x(2);
+        x << 1, 0;
+        VectorXd y = A * x;
+        VectorXd sol = solver.solve(y);
+        cout << "sol:\n"
+             << sol << endl;
+        cout << "x= Q_t * y if Q is othornmal and Qt*Q*x=Qt*y" << endl;
+        MatrixXd p = solver.colsPermutation();
+        cout << "p:\n"
+             << p << endl;
+    }
+}
+
 int main()
 {
-    testCamera();
+    // testCamera();
+    testQR();
     return 0;
 }
