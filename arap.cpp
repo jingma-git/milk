@@ -156,8 +156,6 @@ void fit_rotations(const MatrixXd &S,
                 si(i, j) = S(i * nr + r, j);
             }
         }
-        // cout << "rotation" << r << endl;
-        // cout << si << endl;
 
         Matrix3d ri;
         if (single_precision)
@@ -168,6 +166,8 @@ void fit_rotations(const MatrixXd &S,
         }
         assert(ri.determinant() >= 0);
         R.block(0, r * dim, dim, dim) = ri.block(0, 0, dim, dim).transpose();
+        cout << "rotation" << r << endl;
+        cout << ri << endl;
     }
 }
 
@@ -178,6 +178,8 @@ void arap_solve(const MatrixXd &bc,
     int n = data.n;
     MatrixXd U_prev = U;
     int iter = 0;
+    // cout << "U" << endl;
+    // cout << U << endl;
     // while (iter < data.max_iter)
     // {
     for (int bi = 0; bi < bc.rows(); bi++)
@@ -211,6 +213,7 @@ void arap_solve(const MatrixXd &bc,
         igl::min_quad_with_fixed_solve(data.solver_data, Bc, bcc, Beq, Uc);
         U.col(c) = Uc;
     }
+    iter++;
     // }
 }
 
@@ -274,19 +277,32 @@ void test()
 {
     make_plane(V, F, 4, 4);
     U = V;
-    // cout << "V: " << V.rows() << " F: " << F.rows() << endl;
-    // cout << "V" << endl;
-    // cout << V << endl;
+    cout << "V: " << V.rows() << " F: " << F.rows() << endl;
+    cout << "V" << endl;
+    cout << V << endl;
+    int cent_idx = V.rows() / 2;
+    cout << "...............Cent_idx=" << cent_idx << endl;
     // cout << "F" << endl;
     // cout << F << endl;
 
+    // b.resize(2);
+    // MatrixXd bc(2, 3);
+    // b << 0, 12;
+
+    // Eigen::RowVector3d trans(5, 0, 0);
+    // bc.row(0) = V.row(0) + trans;
+    // bc.row(1) = V.row(12) + trans;
     b.resize(1);
     MatrixXd bc(1, 3);
-    b << 12;
-    bc << 0, 0, 5;
+    b << cent_idx;
+
+    Eigen::RowVector3d trans(5, 0, 0);
+    bc.row(0) = V.row(cent_idx) + trans;
 
     arap_precomp(V, F, 3, b, arap_data);
     arap_solve(bc, arap_data, U);
+    cout << "after solve" << endl;
+    cout << U - V << endl;
 }
 
 int main()

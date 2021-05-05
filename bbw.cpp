@@ -159,16 +159,16 @@ bool key_down(igl::opengl::glfw::Viewer &viewer, unsigned char key, int mods)
 
 int main()
 {
-    igl::readMESH("data/hand.mesh", V, T, F);
+    igl::readMESH("/home/server/MaJing/cpp_proj/milk/data/hand.mesh", V, T, F);
     U = V;
     cout << "V: " << V.rows() << " T: " << T.rows() << ", " << T.cols() << " F: " << F.rows() << "," << F.cols() << endl;
 
-    igl::readTGF("data/hand.tgf", C, BE);
+    igl::readTGF("/home/server/MaJing/cpp_proj/milk/data/hand.tgf", C, BE);
     cout << "joints: " << C.rows() << endl;
     cout << "bones: " << BE.rows() << ", " << BE.cols() << endl;
 
     igl::directed_edge_parents(BE, P);
-    igl::readDMAT("data/hand-pose.dmat", Q);
+    igl::readDMAT("/home/server/MaJing/cpp_proj/milk/data/hand-pose.dmat", Q);
     igl::column_to_quats(Q, pose);
     cout << "joint pose: " << pose.size() << endl;
 

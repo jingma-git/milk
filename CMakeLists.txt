@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.1)
 project(example)
 
-set(CMAKE_BUILD_TYPE RELEASE)
+# set(CMAKE_BUILD_TYPE RELEASE)
+# set(CMAKE_BUILD_TYPE DEBUG)
 
 message("-- CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}")
 message("-- CMAKE_CURRENT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}")
@@ -14,6 +15,7 @@ option(LIBIGL_WITH_STATIC_LIBRARY    "Use libigl as static library" OFF)
 option(LIBIGL_WITH_OPENGL            "Use OpenGL"         ON)
 option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
 option(LIBIGL_WITH_TRIANGLE           "Use Triangle"      ON)
+option(LIBIGL_WITH_CGAL              "Use CGAL"           ON)
 # option(LIBIGL_WITH_OPENGL_GLFW_IMGUI        "Use ImgGui"      ON)
 
 find_package(LIBIGL REQUIRED)
@@ -37,6 +39,10 @@ find_package(LIBIGL REQUIRED)
 # add_executable(main arap.cpp)
 # target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 
+# ---------------------------Fast Automatic Skinning
+# add_executable(main fast_skin.cpp)
+# target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+
 # ---------------------------'template' and 'typename' keywords
 # add_executable(main template.cpp)
 
@@ -50,6 +56,10 @@ find_package(LIBIGL REQUIRED)
 # add_executable(gui gui.cpp)
 # target_link_libraries(gui igl::core igl::opengl igl::opengl_glfw)
 
+# ---------------------------   picking
+# add_executable(main pick.cpp)
+# target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+
 # ---------------------------- Fast-software for Box-intersection
 # https://zhuanlan.zhihu.com/p/163706375
 
@@ -58,8 +68,8 @@ find_package(LIBIGL REQUIRED)
 # target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 
 # ---------------------------   monster mash ARAP_L
-add_executable(main arap_l.cpp)
-target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+# add_executable(main arap_l.cpp)
+# target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 
 # ---------------------------   G_T * T * G == L
 # add_executable(main laplace_by_gradient.cpp)
@@ -68,6 +78,9 @@ target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 # ---------------------------   Langrange Multiplier to solve Linear Equality Constraint
 # add_executable(main laplace_equality_constraint.cpp)
 # target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+
+add_executable(main boolean.cpp)
+target_link_libraries(main igl::core igl::cgal igl::opengl igl::opengl_glfw)
 
 
 # ---------------------------   Active set to solve In-Equality Constraint
@@ -81,3 +94,5 @@ target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 # ---------------------------   Test
 # include_directories(src/)
 # add_executable(test test.cpp)
+
+
