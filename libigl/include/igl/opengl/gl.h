@@ -21,5 +21,4 @@
 //
 
 #include <glad/glad.h>
-
 #endif

@@ -1,0 +1,5176 @@
+  model_list = np.loadtxt("/mnt/f/Dataset/RigNetv1/test_final.txt", dtype=np.int)
+model_id 8334
+777, 1549
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+Jettisoning redundant points.
+
+Writing nodes.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0
+
+Statistics:
+
+  Input points: 777
+  Input facets: 1549
+  Input segments: 2326
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 0
+  Mesh tetrahedra: 0
+  Mesh faces: 0
+  Mesh faces on exterior boundary: 0
+  Mesh faces on input facets: 0
+  Mesh edges on input segments: 0
+
+^tetrahedralize: Tetgen failed to create tets
+0, 0, 0
+model_id 4518
+1006, 1929
+Delaunizing vertices...
+Warning:  Point #807 is coincident with #954. Ignored!
+Warning:  Point #836 is coincident with #974. Ignored!
+Warning:  Point #837 is coincident with #977. Ignored!
+Warning:  Point #848 is coincident with #975. Ignored!
+Warning:  Point #829 is coincident with #955. Ignored!
+Warning:  Point #976 is coincident with #839. Ignored!
+Warning:  Point #615 is coincident with #850. Ignored!
+Warning:  Point #847 is coincident with #617. Ignored!
+Warning:  Point #851 is coincident with #655. Ignored!
+Warning:  Point #820 is coincident with #973. Ignored!
+Warning:  Point #800 is coincident with #951. Ignored!
+Warning:  Point #828 is coincident with #969. Ignored!
+Warning:  Point #817 is coincident with #968. Ignored!
+Warning:  Point #818 is coincident with #972. Ignored!
+Warning:  Point #953 is coincident with #804. Ignored!
+Warning:  Point #803 is coincident with #952. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [4, 27, 5] #138
+  2nd: [4, 27, 5] #153
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3685
+773, 1516
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.323823,0.306898).
+  Segment 1: [459, 612] #-1 (1162)
+  Segment 2: [113, 114] #-1 (179)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1333
+774, 1492
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [5, 29, 6] #6
+  2nd: [5, 29, 6] #7
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8318
+803, 1575
+Delaunizing vertices...
+Warning:  Point #82 is coincident with #712. Ignored!
+Warning:  Point #56 is coincident with #738. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0530097,0.728452,0.0333245).
+  Segment: [88,93] #-1 (136)
+  Facet:   [703,712,706] #1569
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8333
+817, 1626
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.048696,0.839583,0.0318901).
+  Segment: [58,63] #-1 (649)
+  Facet:   [213,215,216] #315
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8335
+858, 1674
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.102761,0.477936,0.00370013).
+  Segment: [607,610] #-1 (1076)
+  Facet:   [583,584,582] #1015
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15559
+817, 1594
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.918995,-0.086105).
+  Segment 1: [5, 48] #-1 (75)
+  Segment 2: [150, 149] #-1 (215)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3642
+696, 1348
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-2e-06,0.575216,-0.0618354).
+  Segment 1: [411, 354] #-1 (772)
+  Segment 2: [262, 261] #-1 (327)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3641
+842, 1652
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.00567119,0.459304,0.0644113).
+  Segment: [398,346] #-1 (793)
+  Facet:   [432,426,431] #833
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 783
+1564, 2990
+Delaunizing vertices...
+Warning:  Point #1326 is coincident with #1220. Ignored!
+Warning:  Point #905 is coincident with #1550. Ignored!
+Warning:  Point #1556 is coincident with #824. Ignored!
+Warning:  Point #1039 is coincident with #573. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.87921,-0.0465778).
+  Segment 1: [1510, 1508] #-1 (2943)
+  Segment 2: [293, 294] #-1 (741)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9836
+637, 1240
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.638176,-0.011164).
+  Segment 1: [293, 466] #-1 (868)
+  Segment 2: [71, 74] #-1 (72)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14029
+894, 1729
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-4.02173e-07,0,0.0706739).
+  Segment 1: [395, 409] #-1 (802)
+  Segment 2: [394, 380] #-1 (810)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 425
+489, 948
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.144348,0.874228,0.00976).
+  Segment 1: [348, 346] #-1 (641)
+  Segment 2: [441, 423] #-1 (853)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16740
+1970, 3848
+Delaunizing vertices...
+Warning:  Point #355 is coincident with #439. Ignored!
+Warning:  Point #153 is coincident with #351. Ignored!
+Warning:  Point #436 is coincident with #334. Ignored!
+Warning:  Point #434 is coincident with #335. Ignored!
+Warning:  Point #338 is coincident with #435. Ignored!
+Warning:  Point #347 is coincident with #437. Ignored!
+Warning:  Point #438 is coincident with #350. Ignored!
+Warning:  Point #341 is coincident with #407. Ignored!
+Warning:  Point #440 is coincident with #160. Ignored!
+Warning:  Point #343 is coincident with #441. Ignored!
+Warning:  Point #305 is coincident with #443. Ignored!
+Warning:  Point #389 is coincident with #442. Ignored!
+Warning:  Point #231 is coincident with #430. Ignored!
+Warning:  Point #428 is coincident with #219. Ignored!
+Warning:  Point #427 is coincident with #220. Ignored!
+Warning:  Point #222 is coincident with #429. Ignored!
+Warning:  Point #261 is coincident with #405. Ignored!
+Warning:  Point #332 is coincident with #432. Ignored!
+Warning:  Point #344 is coincident with #431. Ignored!
+Warning:  Point #406 is coincident with #433. Ignored!
+Warning:  Point #333 is coincident with #433. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [34, 35, 36] #48
+  2nd: [34, 35, 36] #2046
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6521
+846, 1624
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.000396,0.882904,0.0775506).
+  Segment 1: [809, 803] #-1 (1543)
+  Segment 2: [666, 665] #-1 (1295)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8336
+820, 1598
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.006938,0.703508,-0.0546491).
+  Segment: [698,697] #-1 (1259)
+  Facet:   [783,785,787] #1590
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 781
+1596, 3000
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.000293,0.924907,-0.0627915).
+  Segment 1: [187, 197] #-1 (271)
+  Segment 2: [69, 1324] #-1 (2389)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14414
+419, 834
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0
+
+Statistics:
+
+  Input points: 419
+  Input facets: 834
+  Input segments: 1251
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 485
+  Mesh tetrahedra: 1400
+  Mesh faces: 3217
+  Mesh faces on exterior boundary: 834
+  Mesh faces on input facets: 834
+  Mesh edges on input segments: 1251
+  Steiner points inside domain: 66
+
+485, 1400, 834
+model_id 3640
+758, 1488
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.156805,0.832504,0.0342524).
+  Segment: [71,101] #-1 (343)
+  Facet:   [256,255,257] #480
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9479
+544, 964
+Delaunizing vertices...
+Warning:  Point #249 is coincident with #217. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0190881,0.317041,0.0237135).
+  Segment: [294,292] #-1 (430)
+  Facet:   [18,23,21] #18
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8331
+785, 1542
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.407823,0.647646,-0.0164543).
+  Segment: [752,750] #-1 (1465)
+  Facet:   [587,348,341] #993
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9876
+679, 1322
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.688978,0.0276489).
+  Segment 1: [193, 192] #-1 (688)
+  Segment 2: [476, 641] #-1 (1210)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18897
+548, 1060
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.348868,0.150032).
+  Segment 1: [485, 371] #-1 (962)
+  Segment 2: [544, 537] #-1 (1050)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15906
+411, 758
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two facets intersect at point (0.0332213,0.326559,0.133648).
+  Facet 1: [421, 118, 198] #597.
+  Facet 2: [79, 82, 81] #142.
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2921
+839, 1337
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.361816,0.807151,0.0340596).
+  Segment: [357,350] #-1 (521)
+  Facet:   [297,310,363] #541
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15135
+494, 939
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.699903,0.0196725).
+  Segment 1: [51, 50] #-1 (79)
+  Segment 2: [43, 26] #-1 (71)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3618
+795, 1225
+Delaunizing vertices...
+Warning:  Point #721 is coincident with #571. Ignored!
+Warning:  Point #572 is coincident with #697. Ignored!
+Warning:  Point #677 is coincident with #553. Ignored!
+Warning:  Point #732 is coincident with #540. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.591172,0.0875778).
+  Segment 1: [400, 398] #-1 (586)
+  Segment 2: [240, 200] #-1 (434)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7154
+870, 1699
+Delaunizing vertices...
+Warning:  Point #25 is coincident with #259. Ignored!
+Warning:  Point #260 is coincident with #27. Ignored!
+Warning:  Point #35 is coincident with #249. Ignored!
+Warning:  Point #34 is coincident with #248. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [0, 1, 2] #0
+  2nd: [0, 1, 2] #22
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16827
+782, 1532
+Delaunizing vertices...
+Warning:  Point #319 is coincident with #521. Ignored!
+Warning:  Point #724 is coincident with #725. Ignored!
+Warning:  Point #708 is coincident with #530. Ignored!
+Warning:  Point #712 is coincident with #530. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 741.
+Warning:  Polygon 1 has two identical verts in facet 742.
+Warning:  Polygon 1 has two identical verts in facet 1273.
+Warning:  Polygon 1 has two identical verts in facet 1274.
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.106664,0.043539).
+  Segment 1: [762, 780] #-1 (1497)
+  Segment 2: [483, 449] #-1 (1134)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7179
+683, 1291
+Delaunizing vertices...
+Warning:  Point #673 is coincident with #624. Ignored!
+Warning:  Point #588 is coincident with #680. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.731089,-0.0152117).
+  Segment 1: [200, 437] #-1 (766)
+  Segment 2: [512, 511] #-1 (909)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6516
+785, 1566
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0182952,0.811746,-0.0755707).
+  Segment: [669,675] #-1 (1314)
+  Facet:   [147,143,785] #216
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14760
+699, 1390
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.357194,0.253593).
+  Segment 1: [276, 297] #-1 (361)
+  Segment 2: [48, 181] #-1 (68)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16314
+792, 1556
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.538436,-0.0549436).
+  Segment 1: [15, 16] #-1 (24)
+  Segment 2: [532, 531] #-1 (1009)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17736
+907, 1654
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.30687,-0.0900987).
+  Segment 1: [330, 317] #-1 (602)
+  Segment 2: [33, 38] #-1 (67)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9466
+649, 1281
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+Jettisoning redundant points.
+
+Writing nodes.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0
+
+Statistics:
+
+  Input points: 649
+  Input facets: 1281
+  Input segments: 1928
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 0
+  Mesh tetrahedra: 0
+  Mesh faces: 0
+  Mesh faces on exterior boundary: 0
+  Mesh faces on input facets: 0
+  Mesh edges on input segments: 0
+
+^tetrahedralize: Tetgen failed to create tets
+0, 0, 0
+model_id 8233
+689, 1220
+Delaunizing vertices...
+Warning:  Point #257 is coincident with #341. Ignored!
+Warning:  Point #340 is coincident with #255. Ignored!
+Warning:  Point #197 is coincident with #68. Ignored!
+Warning:  Point #27 is coincident with #181. Ignored!
+Warning:  Point #166 is coincident with #176. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [203, 204, 205] #310
+  2nd: [203, 204, 205] #324
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 4113
+1795, 3570
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.479806,0.494786).
+  Segment 1: [369, 370] #-1 (621)
+  Segment 2: [126, 128] #-1 (483)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14188
+326, 648
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0
+
+Statistics:
+
+  Input points: 326
+  Input facets: 648
+  Input segments: 972
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 378
+  Mesh tetrahedra: 1113
+  Mesh faces: 2550
+  Mesh faces on exterior boundary: 648
+  Mesh faces on input facets: 648
+  Mesh edges on input segments: 972
+  Steiner points inside domain: 52
+
+378, 1113, 648
+model_id 14697
+1764, 3406
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.254651,-0.187486).
+  Segment 1: [1715, 1626] #-1 (3203)
+  Segment 2: [1760, 1458] #-1 (3391)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9852
+636, 1242
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.811148,-0.131044).
+  Segment 1: [625, 626] #-1 (1232)
+  Segment 2: [510, 528] #-1 (1005)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3625
+845, 1393
+Delaunizing vertices...
+Warning:  Point #223 is coincident with #177. Ignored!
+Warning:  Point #744 is coincident with #770. Ignored!
+Warning:  Point #778 is coincident with #819. Ignored!
+Warning:  Point #48 is coincident with #105. Ignored!
+Warning:  Point #695 is coincident with #829. Ignored!
+Warning:  Point #817 is coincident with #727. Ignored!
+Warning:  Point #815 is coincident with #777. Ignored!
+Warning:  Point #221 is coincident with #199. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0535664,0.0974665,0.0161343).
+  Segment: [425,423] #-1 (572)
+  Facet:   [397,422,431] #577
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7352
+1492, 2984
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0.015625
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0.015625
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.046875
+
+Statistics:
+
+  Input points: 1492
+  Input facets: 2984
+  Input segments: 4476
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 1820
+  Mesh tetrahedra: 5903
+  Mesh faces: 13298
+  Mesh faces on exterior boundary: 2984
+  Mesh faces on input facets: 2984
+  Mesh edges on input segments: 4476
+  Steiner points inside domain: 328
+
+1820, 5903, 2984
+model_id 13868
+1727, 3388
+Delaunizing vertices...
+Warning:  Point #1198 is coincident with #1197. Ignored!
+Warning:  Point #1196 is coincident with #1197. Ignored!
+Warning:  Point #1025 is coincident with #1. Ignored!
+Warning:  Point #1033 is coincident with #519. Ignored!
+Warning:  Point #1032 is coincident with #10. Ignored!
+Warning:  Point #833 is coincident with #821. Ignored!
+Warning:  Point #790 is coincident with #795. Ignored!
+Warning:  Point #550 is coincident with #553. Ignored!
+Warning:  Point #67 is coincident with #122. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 1561.
+Warning:  Polygon 1 has two identical verts in facet 1564.
+Warning:  Polygon 1 has two identical verts in facet 2102.
+Warning:  Polygon 1 has two identical verts in facet 2103.
+Warning:  Polygon 1 has two identical verts in facet 2104.
+Warning:  Polygon 1 has two identical verts in facet 2104.
+Warning:  Polygon 1 has two identical verts in facet 2104.
+Warning:  Polygon 1 has two identical verts in facet 2105.
+Found two overlapping facets.
+  1st: [42, 44, 484] #913
+  2nd: [42, 44, 484] #920
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3621
+876, 1375
+Delaunizing vertices...
+Warning:  Point #819 is coincident with #868. Ignored!
+Warning:  Point #815 is coincident with #753. Ignored!
+Warning:  Point #672 is coincident with #720. Ignored!
+Warning:  Point #848 is coincident with #860. Ignored!
+Warning:  Point #652 is coincident with #722. Ignored!
+Warning:  Point #804 is coincident with #845. Ignored!
+Warning:  Point #867 is coincident with #811. Ignored!
+Warning:  Point #795 is coincident with #853. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.895926,-0.0671609).
+  Segment 1: [686, 784] #-1 (1318)
+  Segment 2: [828, 829] #-1 (1307)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17711
+492, 892
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0653004,0.128493,-0.0380262).
+  Segment: [231,236] #-1 (340)
+  Facet:   [267,276,273] #406
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14738
+660, 1312
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.35979,0.293192).
+  Segment 1: [310, 311] #-1 (493)
+  Segment 2: [19, 215] #-1 (244)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3670
+3117, 5694
+Delaunizing vertices...
+Warning:  Point #166 is coincident with #21. Ignored!
+Warning:  Point #301 is coincident with #138. Ignored!
+Warning:  Point #165 is coincident with #2. Ignored!
+Warning:  Point #258 is coincident with #94. Ignored!
+Warning:  Point #169 is coincident with #23. Ignored!
+Warning:  Point #170 is coincident with #5. Ignored!
+Warning:  Point #3 is coincident with #168. Ignored!
+Warning:  Point #191 is coincident with #33. Ignored!
+Warning:  Point #34 is coincident with #192. Ignored!
+Warning:  Point #32 is coincident with #190. Ignored!
+Warning:  Point #63 is coincident with #253. Ignored!
+Warning:  Point #252 is coincident with #61. Ignored!
+Warning:  Point #62 is coincident with #305. Ignored!
+Warning:  Point #306 is coincident with #120. Ignored!
+Warning:  Point #195 is coincident with #37. Ignored!
+Warning:  Point #257 is coincident with #93. Ignored!
+Warning:  Point #300 is coincident with #137. Ignored!
+Warning:  Point #4 is coincident with #261. Ignored!
+Warning:  Point #1 is coincident with #260. Ignored!
+Warning:  Point #262 is coincident with #6. Ignored!
+Warning:  Point #0 is coincident with #164. Ignored!
+Warning:  Point #340 is coincident with #484. Ignored!
+Warning:  Point #489 is coincident with #345. Ignored!
+Warning:  Point #488 is coincident with #344. Ignored!
+Warning:  Point #485 is coincident with #341. Ignored!
+Warning:  Point #458 is coincident with #620. Ignored!
+Warning:  Point #362 is coincident with #621. Ignored!
+Warning:  Point #532 is coincident with #379. Ignored!
+Warning:  Point #486 is coincident with #342. Ignored!
+Warning:  Point #487 is coincident with #343. Ignored!
+Warning:  Point #397 is coincident with #501. Ignored!
+Warning:  Point #530 is coincident with #377. Ignored!
+Warning:  Point #376 is coincident with #529. Ignored!
+Warning:  Point #504 is coincident with #366. Ignored!
+Warning:  Point #519 is coincident with #387. Ignored!
+Warning:  Point #481 is coincident with #634. Ignored!
+Warning:  Point #490 is coincident with #346. Ignored!
+Warning:  Point #388 is coincident with #520. Ignored!
+Warning:  Point #389 is coincident with #521. Ignored!
+Warning:  Point #518 is coincident with #361. Ignored!
+Warning:  Point #633 is coincident with #480. Ignored!
+Warning:  Point #635 is coincident with #359. Ignored!
+Warning:  Point #360 is coincident with #517. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [164, 260, 2] #0
+  2nd: [164, 260, 2] #435
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14715
+789, 1568
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (3.46945e-18,0.158634,0.351479).
+  Segment 1: [653, 746] #-1 (1456)
+  Segment 2: [724, 730] #-1 (1350)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1236
+786, 1568
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0.015625
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.03125
+
+Statistics:
+
+  Input points: 786
+  Input facets: 1568
+  Input segments: 2352
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 869
+  Mesh tetrahedra: 2309
+  Mesh faces: 5402
+  Mesh faces on exterior boundary: 1568
+  Mesh faces on input facets: 1568
+  Mesh edges on input segments: 2352
+  Steiner points inside domain: 83
+
+869, 2309, 1568
+model_id 9484
+528, 915
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0796987,0.257916,0.0244431).
+  Segment: [0,1] #-1 (1)
+  Facet:   [134,140,138] #182
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7157
+947, 1795
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [70, 71, 76] #96
+  2nd: [70, 71, 76] #145
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 421
+646, 1140
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.247637,-0.0123792).
+  Segment 1: [144, 146] #-1 (228)
+  Segment 2: [428, 427] #-1 (747)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8397
+251, 494
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.754086,0.331617).
+  Segment 1: [247, 241] #-1 (487)
+  Segment 2: [227, 165] #-1 (361)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8234
+851, 1465
+Delaunizing vertices...
+Warning:  Point #301 is coincident with #245. Ignored!
+Warning:  Point #302 is coincident with #223. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [221, 222, 245] #387
+  2nd: [221, 222, 245] #427
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 5590
+746, 1488
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0469603,0.387678,0.286321).
+  Segment: [235,196] #-1 (327)
+  Facet:   [544,545,546] #786
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3220
+313, 584
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.405191,0.640032,-0.0342176).
+  Segment: [171,172] #-1 (335)
+  Facet:   [60,68,71] #106
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3675
+3254, 6028
+Delaunizing vertices...
+Warning:  Point #3007 is coincident with #3128. Ignored!
+Warning:  Point #3118 is coincident with #2997. Ignored!
+Warning:  Point #3046 is coincident with #2925. Ignored!
+Warning:  Point #2924 is coincident with #3045. Ignored!
+Warning:  Point #2936 is coincident with #3057. Ignored!
+Warning:  Point #3048 is coincident with #2927. Ignored!
+Warning:  Point #3008 is coincident with #3129. Ignored!
+Warning:  Point #2922 is coincident with #3043. Ignored!
+Warning:  Point #3055 is coincident with #2934. Ignored!
+Warning:  Point #2935 is coincident with #3056. Ignored!
+Warning:  Point #3054 is coincident with #2933. Ignored!
+Warning:  Point #3053 is coincident with #2932. Ignored!
+Warning:  Point #3052 is coincident with #2931. Ignored!
+Warning:  Point #3070 is coincident with #2949. Ignored!
+Warning:  Point #2946 is coincident with #3067. Ignored!
+Warning:  Point #3081 is coincident with #2960. Ignored!
+Warning:  Point #3066 is coincident with #2945. Ignored!
+Warning:  Point #3040 is coincident with #2919. Ignored!
+Warning:  Point #2940 is coincident with #3061. Ignored!
+Warning:  Point #2942 is coincident with #3063. Ignored!
+Warning:  Point #3065 is coincident with #2944. Ignored!
+Warning:  Point #2979 is coincident with #3100. Ignored!
+Warning:  Point #2978 is coincident with #3099. Ignored!
+Warning:  Point #3049 is coincident with #2928. Ignored!
+Warning:  Point #2998 is coincident with #3119. Ignored!
+Warning:  Point #2995 is coincident with #3116. Ignored!
+Warning:  Point #3102 is coincident with #2981. Ignored!
+Warning:  Point #3127 is coincident with #3006. Ignored!
+Warning:  Point #2929 is coincident with #3050. Ignored!
+Warning:  Point #3014 is coincident with #2893. Ignored!
+Warning:  Point #2891 is coincident with #3012. Ignored!
+Warning:  Point #2937 is coincident with #3058. Ignored!
+Warning:  Point #3132 is coincident with #3011. Ignored!
+Warning:  Point #3044 is coincident with #2923. Ignored!
+Warning:  Point #2926 is coincident with #3047. Ignored!
+Warning:  Point #3098 is coincident with #2977. Ignored!
+Warning:  Point #2905 is coincident with #3026. Ignored!
+Warning:  Point #2896 is coincident with #3017. Ignored!
+Warning:  Point #3031 is coincident with #2910. Ignored!
+Warning:  Point #2912 is coincident with #3033. Ignored!
+Warning:  Point #3120 is coincident with #2999. Ignored!
+Warning:  Point #2897 is coincident with #3018. Ignored!
+Warning:  Point #2895 is coincident with #3016. Ignored!
+Warning:  Point #2911 is coincident with #3032. Ignored!
+Warning:  Point #3103 is coincident with #2982. Ignored!
+Warning:  Point #2894 is coincident with #3015. Ignored!
+Warning:  Point #2892 is coincident with #3013. Ignored!
+Warning:  Point #2906 is coincident with #3027. Ignored!
+Warning:  Point #2907 is coincident with #3028. Ignored!
+Warning:  Point #3131 is coincident with #3010. Ignored!
+Warning:  Point #3101 is coincident with #2980. Ignored!
+Warning:  Point #3117 is coincident with #2996. Ignored!
+Warning:  Point #2994 is coincident with #3115. Ignored!
+Warning:  Point #3000 is coincident with #3121. Ignored!
+Warning:  Point #3001 is coincident with #3122. Ignored!
+Warning:  Point #3051 is coincident with #2930. Ignored!
+Warning:  Point #3030 is coincident with #2909. Ignored!
+Warning:  Point #2908 is coincident with #3029. Ignored!
+Warning:  Point #2915 is coincident with #3036. Ignored!
+Warning:  Point #3034 is coincident with #2913. Ignored!
+Warning:  Point #3037 is coincident with #2916. Ignored!
+Warning:  Point #2914 is coincident with #3035. Ignored!
+Warning:  Point #2917 is coincident with #3038. Ignored!
+Warning:  Point #2918 is coincident with #3039. Ignored!
+Warning:  Point #3041 is coincident with #2920. Ignored!
+Warning:  Point #3042 is coincident with #2921. Ignored!
+Warning:  Point #3091 is coincident with #2970. Ignored!
+Warning:  Point #2972 is coincident with #3093. Ignored!
+Warning:  Point #2973 is coincident with #3094. Ignored!
+Warning:  Point #2975 is coincident with #3096. Ignored!
+Warning:  Point #2971 is coincident with #3092. Ignored!
+Warning:  Point #2974 is coincident with #3095. Ignored!
+Warning:  Point #3090 is coincident with #2969. Ignored!
+Warning:  Point #3097 is coincident with #2976. Ignored!
+Warning:  Point #3005 is coincident with #3126. Ignored!
+Warning:  Point #2903 is coincident with #3024. Ignored!
+Warning:  Point #3023 is coincident with #2902. Ignored!
+Warning:  Point #2901 is coincident with #3022. Ignored!
+Warning:  Point #2904 is coincident with #3025. Ignored!
+Warning:  Point #2900 is coincident with #3021. Ignored!
+Warning:  Point #2899 is coincident with #3020. Ignored!
+Warning:  Point #2898 is coincident with #3019. Ignored!
+Warning:  Point #2603 is coincident with #2777. Ignored!
+Warning:  Point #2782 is coincident with #2608. Ignored!
+Warning:  Point #2609 is coincident with #2783. Ignored!
+Warning:  Point #2884 is coincident with #2570. Ignored!
+Warning:  Point #2569 is coincident with #2848. Ignored!
+Warning:  Point #2648 is coincident with #2850. Ignored!
+Warning:  Point #2851 is coincident with #2637. Ignored!
+Warning:  Point #2800 is coincident with #2575. Ignored!
+Warning:  Point #2799 is coincident with #2595. Ignored!
+Warning:  Point #2596 is coincident with #2797. Ignored!
+Warning:  Point #2597 is coincident with #2796. Ignored!
+Warning:  Point #2566 is coincident with #2793. Ignored!
+Warning:  Point #2565 is coincident with #2792. Ignored!
+Warning:  Point #2795 is coincident with #2568. Ignored!
+Warning:  Point #2794 is coincident with #2567. Ignored!
+Warning:  Point #2788 is coincident with #2542. Ignored!
+Warning:  Point #2541 is coincident with #2787. Ignored!
+Warning:  Point #2809 is coincident with #2600. Ignored!
+Warning:  Point #2880 is coincident with #2629. Ignored!
+Warning:  Point #2598 is coincident with #2873. Ignored!
+Warning:  Point #2875 is coincident with #2645. Ignored!
+Warning:  Point #2618 is coincident with #2859. Ignored!
+Warning:  Point #2602 is coincident with #2889. Ignored!
+Warning:  Point #2601 is coincident with #2786. Ignored!
+Warning:  Point #2636 is coincident with #2772. Ignored!
+Warning:  Point #2790 is coincident with #2617. Ignored!
+Warning:  Point #2774 is coincident with #2539. Ignored!
+Warning:  Point #2776 is coincident with #2540. Ignored!
+Warning:  Point #2620 is coincident with #2791. Ignored!
+Warning:  Point #2775 is coincident with #2538. Ignored!
+Warning:  Point #2784 is coincident with #2554. Ignored!
+Warning:  Point #2563 is coincident with #2803. Ignored!
+Warning:  Point #2805 is coincident with #2561. Ignored!
+Warning:  Point #2536 is coincident with #2860. Ignored!
+Warning:  Point #2874 is coincident with #2564. Ignored!
+Warning:  Point #2562 is coincident with #2877. Ignored!
+Warning:  Point #2807 is coincident with #2560. Ignored!
+Warning:  Point #2644 is coincident with #2857. Ignored!
+Warning:  Point #2858 is coincident with #2534. Ignored!
+Warning:  Point #2823 is coincident with #2585. Ignored!
+Warning:  Point #2798 is coincident with #2577. Ignored!
+Warning:  Point #2819 is coincident with #2622. Ignored!
+Warning:  Point #2614 is coincident with #2839. Ignored!
+Warning:  Point #2826 is coincident with #2545. Ignored!
+Warning:  Point #2828 is coincident with #2630. Ignored!
+Warning:  Point #2531 is coincident with #2812. Ignored!
+Warning:  Point #2814 is coincident with #2533. Ignored!
+Warning:  Point #2612 is coincident with #2887. Ignored!
+Warning:  Point #2559 is coincident with #2806. Ignored!
+Warning:  Point #2802 is coincident with #2610. Ignored!
+Warning:  Point #2611 is coincident with #2804. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [1973, 1972, 1974] #3481
+  2nd: [1973, 1972, 1974] #4342
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8210
+873, 1532
+Delaunizing vertices...
+Warning:  Point #2 is coincident with #1. Ignored!
+Warning:  Point #0 is coincident with #1. Ignored!
+Warning:  Point #19 is coincident with #1. Ignored!
+Warning:  Point #450 is coincident with #1. Ignored!
+Warning:  Point #20 is coincident with #1. Ignored!
+Warning:  Point #3 is coincident with #1. Ignored!
+Warning:  Point #452 is coincident with #1. Ignored!
+Warning:  Point #21 is coincident with #1. Ignored!
+Warning:  Point #453 is coincident with #1. Ignored!
+Warning:  Point #451 is coincident with #1. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 1.
+Warning:  Polygon 1 has two identical verts in facet 1.
+Warning:  Polygon 1 has two identical verts in facet 1.
+Warning:  Polygon 1 has two identical verts in facet 2.
+Warning:  Polygon 1 has two identical verts in facet 2.
+Warning:  Polygon 1 has two identical verts in facet 2.
+Warning:  Polygon 1 has two identical verts in facet 3.
+Warning:  Polygon 1 has two identical verts in facet 3.
+Warning:  Polygon 1 has two identical verts in facet 3.
+Warning:  Polygon 1 has two identical verts in facet 4.
+Warning:  Polygon 1 has two identical verts in facet 4.
+Warning:  Polygon 1 has two identical verts in facet 4.
+Warning:  Polygon 1 has two identical verts in facet 19.
+Warning:  Polygon 1 has two identical verts in facet 19.
+Warning:  Polygon 1 has two identical verts in facet 19.
+Warning:  Polygon 1 has two identical verts in facet 20.
+Warning:  Polygon 1 has two identical verts in facet 20.
+Warning:  Polygon 1 has two identical verts in facet 20.
+Warning:  Polygon 1 has two identical verts in facet 765.
+Warning:  Polygon 1 has two identical verts in facet 765.
+Warning:  Polygon 1 has two identical verts in facet 765.
+Warning:  Polygon 1 has two identical verts in facet 766.
+Warning:  Polygon 1 has two identical verts in facet 766.
+Warning:  Polygon 1 has two identical verts in facet 766.
+Warning:  Polygon 1 has two identical verts in facet 767.
+Warning:  Polygon 1 has two identical verts in facet 767.
+Warning:  Polygon 1 has two identical verts in facet 767.
+Warning:  Polygon 1 has two identical verts in facet 768.
+Warning:  Polygon 1 has two identical verts in facet 768.
+Warning:  Polygon 1 has two identical verts in facet 768.
+Warning:  Polygon 1 has two identical verts in facet 769.
+Warning:  Polygon 1 has two identical verts in facet 769.
+Warning:  Polygon 1 has two identical verts in facet 769.
+Warning:  Polygon 1 has two identical verts in facet 770.
+Warning:  Polygon 1 has two identical verts in facet 770.
+Warning:  Polygon 1 has two identical verts in facet 770.
+Warning:  Polygon 1 has two identical verts in facet 771.
+Warning:  Polygon 1 has two identical verts in facet 771.
+Warning:  Polygon 1 has two identical verts in facet 771.
+Warning:  Polygon 1 has two identical verts in facet 772.
+Warning:  Polygon 1 has two identical verts in facet 772.
+Warning:  Polygon 1 has two identical verts in facet 772.
+Found two nearly self-intersecting facets.
+  1st: [568, 566, 565] #917
+  2nd: [568, 566, 575] #926
+The dihedral angle between them is 0.0573316 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14836
+248, 492
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0
+
+Statistics:
+
+  Input points: 248
+  Input facets: 492
+  Input segments: 738
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 291
+  Mesh tetrahedra: 871
+  Mesh faces: 1988
+  Mesh faces on exterior boundary: 492
+  Mesh faces on input facets: 492
+  Mesh edges on input segments: 738
+  Steiner points inside domain: 43
+
+291, 871, 492
+model_id 9477
+511, 880
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-5.20417e-18,0.344841,-0.00291716).
+  Segment 1: [168, 169] #-1 (231)
+  Segment 2: [356, 360] #-1 (504)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8304
+907, 1776
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.000152,0.51282,0.120226).
+  Segment 1: [904, 900] #-1 (1742)
+  Segment 2: [793, 800] #-1 (1585)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17872
+1080, 2020
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [5, 3, 139] #212
+  2nd: [5, 3, 4] #2
+The dihedral angle between them is 0.0585485 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15677
+677, 1346
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.233742,-0.153882).
+  Segment 1: [191, 187] #-1 (739)
+  Segment 2: [257, 255] #-1 (410)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1226
+1610, 3224
+Delaunizing vertices...
+Warning:  Point #527 is coincident with #676. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [982, 927, 999] #1937
+  2nd: [982, 927, 983] #1842
+The dihedral angle between them is 0.00162636 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8330
+791, 1571
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [507, 506, 503] #896
+  2nd: [507, 506, 503] #1068
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18063
+778, 1486
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.538816,-0.0636263).
+  Segment 1: [768, 769] #-1 (1447)
+  Segment 2: [608, 756] #-1 (1352)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17224
+409, 795
+Delaunizing vertices...
+Warning:  Point #56 is coincident with #346. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.0021575,0.53641,0.0398319).
+  Segment 1: [57, 64] #-1 (61)
+  Segment 2: [346, 352] #-1 (688)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7163
+967, 1815
+Delaunizing vertices...
+Warning:  Point #866 is coincident with #777. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [98, 99, 101] #142
+  2nd: [98, 99, 101] #145
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14051
+448, 892
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0.0625
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.0625
+
+Statistics:
+
+  Input points: 448
+  Input facets: 892
+  Input segments: 1338
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 583
+  Mesh tetrahedra: 1859
+  Mesh faces: 4164
+  Mesh faces on exterior boundary: 892
+  Mesh faces on input facets: 892
+  Mesh edges on input segments: 1338
+  Steiner points inside domain: 135
+
+583, 1859, 892
+model_id 7665
+334, 638
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0641352,0.114395,-0.0420442).
+  Segment: [106,117] #-1 (122)
+  Facet:   [38,11,101] #205
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8322
+846, 1615
+Delaunizing vertices...
+Warning:  Point #738 is coincident with #708. Ignored!
+Warning:  Point #606 is coincident with #740. Ignored!
+Warning:  Point #733 is coincident with #602. Ignored!
+Warning:  Point #732 is coincident with #611. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.87691,-0.0580365).
+  Segment 1: [102, 103] #-1 (112)
+  Segment 2: [548, 546] #-1 (1000)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16537
+792, 1499
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.27737,0.0283377).
+  Segment 1: [595, 627] #-1 (1068)
+  Segment 2: [498, 518] #-1 (880)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18558
+639, 1250
+Delaunizing vertices...
+Warning:  Point #609 is coincident with #632. Ignored!
+Warning:  Point #230 is coincident with #611. Ignored!
+Warning:  Point #595 is coincident with #409. Ignored!
+Warning:  Point #241 is coincident with #606. Ignored!
+Warning:  Point #601 is coincident with #408. Ignored!
+Warning:  Point #605 is coincident with #629. Ignored!
+Warning:  Point #637 is coincident with #625. Ignored!
+Warning:  Point #630 is coincident with #604. Ignored!
+Warning:  Point #624 is coincident with #638. Ignored!
+Warning:  Point #626 is coincident with #239. Ignored!
+Warning:  Point #635 is coincident with #620. Ignored!
+Warning:  Point #407 is coincident with #597. Ignored!
+Warning:  Point #411 is coincident with #593. Ignored!
+Warning:  Point #619 is coincident with #636. Ignored!
+Warning:  Point #421 is coincident with #603. Ignored!
+Warning:  Point #633 is coincident with #615. Ignored!
+Warning:  Point #589 is coincident with #410. Ignored!
+Warning:  Point #412 is coincident with #591. Ignored!
+Warning:  Point #242 is coincident with #621. Ignored!
+Warning:  Point #413 is coincident with #598. Ignored!
+Warning:  Point #616 is coincident with #233. Ignored!
+Warning:  Point #614 is coincident with #634. Ignored!
+Warning:  Point #610 is coincident with #631. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [611, 233, 631] #1195
+  2nd: [611, 233, 631] #1246
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3724
+1237, 2306
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (5e-07,0.505516,0.00456544).
+  Segment 1: [940, 931] #-1 (1736)
+  Segment 2: [744, 752] #-1 (1409)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 4140
+806, 1608
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0.015625
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.03125
+
+Statistics:
+
+  Input points: 806
+  Input facets: 1608
+  Input segments: 2412
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 1155
+  Mesh tetrahedra: 4431
+  Mesh faces: 9666
+  Mesh faces on exterior boundary: 1608
+  Mesh faces on input facets: 1608
+  Mesh edges on input segments: 2412
+  Steiner points inside domain: 349
+
+1155, 4431, 1608
+model_id 11786
+758, 1504
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.530903,0.414233).
+  Segment 1: [52, 65] #-1 (140)
+  Segment 2: [418, 47] #-1 (675)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10557
+950, 1792
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0147619,0.685682,0.0123301).
+  Segment: [117,530] #-1 (834)
+  Facet:   [65,66,67] #112
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1345
+787, 1496
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.370939,0.0628342).
+  Segment 1: [34, 682] #-1 (1169)
+  Segment 2: [157, 158] #-1 (1245)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8236
+909, 1509
+Delaunizing vertices...
+Warning:  Point #672 is coincident with #479. Ignored!
+Warning:  Point #668 is coincident with #472. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.060482,0.12627,0.00542519).
+  Segment 1: [731, 729] #-1 (1151)
+  Segment 2: [334, 346] #-1 (1367)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3725
+1079, 2022
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.885361,-0.0588044).
+  Segment 1: [230, 228] #-1 (328)
+  Segment 2: [490, 370] #-1 (849)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14521
+702, 1400
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0.015625
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 702
+  Input facets: 1400
+  Input segments: 2100
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 935
+  Mesh tetrahedra: 3418
+  Mesh faces: 7536
+  Mesh faces on exterior boundary: 1400
+  Mesh faces on input facets: 1400
+  Mesh edges on input segments: 2100
+  Steiner points inside domain: 233
+
+935, 3418, 1400
+model_id 8328
+777, 1550
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0.015625
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 777
+  Input facets: 1550
+  Input segments: 2325
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 924
+  Mesh tetrahedra: 2968
+  Mesh faces: 6711
+  Mesh faces on exterior boundary: 1550
+  Mesh faces on input facets: 1550
+  Mesh edges on input segments: 2325
+  Steiner points inside domain: 147
+
+924, 2968, 1550
+model_id 17284
+691, 1352
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.255005,-0.123967).
+  Segment 1: [4, 346] #-1 (585)
+  Segment 2: [622, 623] #-1 (1138)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3661
+730, 1444
+Delaunizing vertices...
+Warning:  Point #10 is coincident with #112. Ignored!
+Warning:  Point #438 is coincident with #450. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-7e-06,0.312001,0.101583).
+  Segment 1: [414, 351] #-1 (1319)
+  Segment 2: [410, 378] #-1 (619)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13733
+798, 1582
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.496796,0.490044).
+  Segment 1: [711, 694] #-1 (1284)
+  Segment 2: [547, 545] #-1 (1049)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8306
+838, 1636
+Delaunizing vertices...
+Warning:  Point #32 is coincident with #716. Ignored!
+Warning:  Point #768 is coincident with #449. Ignored!
+Warning:  Point #765 is coincident with #448. Ignored!
+Warning:  Point #44 is coincident with #748. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-8.67362e-19,0.390336,-0.069642).
+  Segment 1: [597, 593] #-1 (1227)
+  Segment 2: [581, 584] #-1 (880)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18608
+1399, 2786
+Delaunizing vertices...
+Warning:  Point #419 is coincident with #1323. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.000418,0.535956,-0.334852).
+  Segment 1: [416, 418] #-1 (647)
+  Segment 2: [1246, 1250] #-1 (2641)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8478
+485, 952
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.395979,0.552059,0.0300789).
+  Segment: [468,469] #-1 (918)
+  Facet:   [451,455,454] #875
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8247
+706, 1317
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [605, 606, 607] #1070
+  2nd: [605, 606, 607] #1074
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7191
+775, 1437
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.286345,-0.0354687).
+  Segment 1: [466, 460] #-1 (754)
+  Segment 2: [447, 445] #-1 (908)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10110
+785, 1492
+Delaunizing vertices...
+Warning:  Point #647 is coincident with #693. Ignored!
+Warning:  Point #726 is coincident with #628. Ignored!
+Warning:  Point #621 is coincident with #731. Ignored!
+Warning:  Point #690 is coincident with #636. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-5e-06,0.622255,-0.0181863).
+  Segment 1: [563, 570] #-1 (1086)
+  Segment 2: [238, 241] #-1 (325)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14372
+370, 704
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [364, 365, 366] #696
+  2nd: [364, 365, 366] #700
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10087
+827, 1497
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-5e-06,0.684803,0.0274188).
+  Segment 1: [746, 744] #-1 (1337)
+  Segment 2: [2, 13] #-1 (495)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6815
+357, 598
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (2.05419e-06,0.000219826,0.0610442).
+  Segment 1: [334, 247] #-1 (506)
+  Segment 2: [325, 297] #-1 (484)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9835
+750, 1460
+Delaunizing vertices...
+Warning:  Point #546 is coincident with #594. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.195911,0.613307,0.021168).
+  Segment 1: [441, 353] #-1 (769)
+  Segment 2: [193, 191] #-1 (239)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7216
+700, 1310
+Delaunizing vertices...
+Warning:  Point #553 is coincident with #512. Ignored!
+Warning:  Point #510 is coincident with #589. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.701079,0.0344495).
+  Segment 1: [478, 475] #-1 (881)
+  Segment 2: [534, 535] #-1 (976)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10514
+359, 688
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0618925,0.923862,-0.0730278).
+  Segment: [258,265] #-1 (408)
+  Facet:   [180,166,190] #292
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16552
+658, 1284
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.243882,-0.178831).
+  Segment 1: [584, 567] #-1 (970)
+  Segment 2: [216, 600] #-1 (1065)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10497
+1096, 2094
+Delaunizing vertices...
+Warning:  Point #615 is coincident with #621. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0519502,0.376481,0.0840072).
+  Segment: [0,10] #-1 (9)
+  Facet:   [25,31,29] #32
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14455
+1691, 3346
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-4.33681e-19,0.0813938,-0.00204191).
+  Segment 1: [1521, 1525] #-1 (2915)
+  Segment 2: [1254, 1250] #-1 (2196)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9853
+647, 1257
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.664793,0.034625).
+  Segment 1: [468, 450] #-1 (901)
+  Segment 2: [5, 234] #-1 (328)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14519
+1093, 2144
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.422852,-0.138713).
+  Segment 1: [869, 870] #-1 (1483)
+  Segment 2: [1018, 1013] #-1 (1990)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 142
+1511, 2998
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0348057,0.679648,0.364874).
+  Segment: [516,543] #-1 (862)
+  Facet:   [473,764,765] #1151
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7495
+771, 1492
+Delaunizing vertices...
+Warning:  Point #321 is coincident with #376. Ignored!
+Warning:  Point #386 is coincident with #322. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [375, 374, 373] #488
+  2nd: [375, 374, 373] #500
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7201
+691, 1368
+Delaunizing vertices...
+Warning:  Point #500 is coincident with #690. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.691416,-0.016002).
+  Segment 1: [17, 14] #-1 (14)
+  Segment 2: [543, 604] #-1 (1179)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2982
+935, 1866
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0.015625
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 935
+  Input facets: 1866
+  Input segments: 2799
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 1053
+  Mesh tetrahedra: 3128
+  Mesh faces: 7189
+  Mesh faces on exterior boundary: 1866
+  Mesh faces on input facets: 1866
+  Mesh edges on input segments: 2799
+  Steiner points inside domain: 118
+
+1053, 3128, 1866
+model_id 1317
+740, 1476
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [479, 472, 162] #692
+  2nd: [479, 472, 237] #711
+The dihedral angle between them is 0.0686814 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13862
+1345, 2592
+Delaunizing vertices...
+Warning:  Point #709 is coincident with #1166. Ignored!
+Warning:  Point #705 is coincident with #1264. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 2264.
+Warning:  Polygon 1 has two identical verts in facet 2265.
+Found two overlapping facets.
+  1st: [690, 692, 708] #1319
+  2nd: [690, 692, 708] #2118
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14854
+896, 1740
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.515422,0.458671).
+  Segment 1: [447, 206] #-1 (743)
+  Segment 2: [427, 426] #-1 (589)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9344
+387, 634
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.181255,-0.299091).
+  Segment 1: [243, 240] #-1 (372)
+  Segment 2: [239, 230] #-1 (361)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3672
+2034, 3929
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.599989,0.0535177).
+  Segment 1: [1542, 1648] #-1 (3182)
+  Segment 2: [1101, 1091] #-1 (2456)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8235
+610, 1100
+Delaunizing vertices...
+Warning:  Point #149 is coincident with #106. Ignored!
+Warning:  Point #97 is coincident with #150. Ignored!
+Warning:  Point #94 is coincident with #146. Ignored!
+Warning:  Point #144 is coincident with #93. Ignored!
+Warning:  Point #92 is coincident with #145. Ignored!
+Warning:  Point #141 is coincident with #87. Ignored!
+Warning:  Point #96 is coincident with #147. Ignored!
+Warning:  Point #139 is coincident with #85. Ignored!
+Warning:  Point #80 is coincident with #135. Ignored!
+Warning:  Point #140 is coincident with #88. Ignored!
+Warning:  Point #86 is coincident with #138. Ignored!
+Warning:  Point #137 is coincident with #84. Ignored!
+Warning:  Point #90 is coincident with #142. Ignored!
+Warning:  Point #82 is coincident with #136. Ignored!
+Warning:  Point #124 is coincident with #170. Ignored!
+Warning:  Point #128 is coincident with #171. Ignored!
+Warning:  Point #168 is coincident with #122. Ignored!
+Warning:  Point #118 is coincident with #164. Ignored!
+Warning:  Point #159 is coincident with #115. Ignored!
+Warning:  Point #119 is coincident with #165. Ignored!
+Warning:  Point #121 is coincident with #167. Ignored!
+Warning:  Point #110 is coincident with #156. Ignored!
+Warning:  Point #158 is coincident with #116. Ignored!
+Warning:  Point #162 is coincident with #120. Ignored!
+Warning:  Point #114 is coincident with #160. Ignored!
+Warning:  Point #109 is coincident with #154. Ignored!
+Warning:  Point #102 is coincident with #152. Ignored!
+Warning:  Point #157 is coincident with #111. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [135, 81, 136] #122
+  2nd: [135, 81, 136] #214
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2317
+297, 590
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 297
+  Input facets: 590
+  Input segments: 885
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 340
+  Mesh tetrahedra: 986
+  Mesh faces: 2267
+  Mesh faces on exterior boundary: 590
+  Mesh faces on input facets: 590
+  Mesh edges on input segments: 885
+  Steiner points inside domain: 43
+
+340, 986, 590
+model_id 7983
+175, 275
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-2.77556e-17,0.445733,0.0399134).
+  Segment 1: [49, 48] #-1 (94)
+  Segment 2: [59, 57] #-1 (73)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9467
+529, 951
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.196872,0.669758,-0.00662451).
+  Segment: [516,309] #-1 (849)
+  Facet:   [525,401,406] #920
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8245
+360, 706
+Delaunizing vertices...
+Warning:  Point #49 is coincident with #41. Ignored!
+Warning:  Point #44 is coincident with #50. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [8, 7, 266] #399
+  2nd: [8, 7, 266] #432
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7592
+409, 646
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.208745,0.762145,0.0289709).
+  Segment: [110,111] #-1 (179)
+  Facet:   [26,25,422] #28
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2132
+1472, 2736
+Delaunizing vertices...
+Warning:  Point #40 is coincident with #38. Ignored!
+Warning:  Point #91 is coincident with #1. Ignored!
+Warning:  Point #58 is coincident with #633. Ignored!
+Warning:  Point #641 is coincident with #60. Ignored!
+Warning:  Point #18 is coincident with #16. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 17.
+Warning:  Polygon 1 has two identical verts in facet 39.
+Warning:  Polygon 1 has two identical verts in facet 91.
+Warning:  Polygon 1 has two identical verts in facet 113.
+Found two exactly self-intersecting facets.
+  1st: [1446, 1445, 1444] #2710
+  2nd: [1446, 1445, 1447] #2711
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8301
+834, 1622
+Delaunizing vertices...
+Warning:  Point #489 is coincident with #460. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [830, 831, 832] #1618
+  2nd: [830, 831, 832] #1620
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10482
+660, 1157
+Delaunizing vertices...
+Warning:  Point #270 is coincident with #451. Ignored!
+Warning:  Point #95 is coincident with #247. Ignored!
+Warning:  Point #577 is coincident with #578. Ignored!
+Warning:  Point #550 is coincident with #559. Ignored!
+Warning:  Point #548 is coincident with #549. Ignored!
+Warning:  Point #483 is coincident with #484. Ignored!
+Warning:  Point #553 is coincident with #555. Ignored!
+Warning:  Point #565 is coincident with #552. Ignored!
+Warning:  Point #343 is coincident with #341. Ignored!
+Warning:  Point #377 is coincident with #376. Ignored!
+Warning:  Point #659 is coincident with #31. Ignored!
+Warning:  Point #32 is coincident with #30. Ignored!
+Warning:  Point #373 is coincident with #372. Ignored!
+Warning:  Point #537 is coincident with #536. Ignored!
+Warning:  Point #353 is coincident with #355. Ignored!
+Warning:  Point #40 is coincident with #27. Ignored!
+Warning:  Point #352 is coincident with #411. Ignored!
+Warning:  Point #35 is coincident with #34. Ignored!
+Warning:  Point #7 is coincident with #5. Ignored!
+Warning:  Point #49 is coincident with #48. Ignored!
+Warning:  Point #3 is coincident with #2. Ignored!
+Warning:  Point #149 is coincident with #150. Ignored!
+Warning:  Point #134 is coincident with #136. Ignored!
+Warning:  Point #43 is coincident with #39. Ignored!
+Warning:  Point #523 is coincident with #522. Ignored!
+Warning:  Point #37 is coincident with #25. Ignored!
+Warning:  Point #26 is coincident with #28. Ignored!
+Warning:  Point #470 is coincident with #469. Ignored!
+Warning:  Point #24 is coincident with #471. Ignored!
+Warning:  Point #410 is coincident with #409. Ignored!
+Warning:  Point #534 is coincident with #540. Ignored!
+Warning:  Point #526 is coincident with #524. Ignored!
+Warning:  Point #545 is coincident with #529. Ignored!
+Warning:  Point #543 is coincident with #531. Ignored!
+Warning:  Point #530 is coincident with #533. Ignored!
+Warning:  Point #88 is coincident with #86. Ignored!
+Warning:  Point #417 is coincident with #290. Ignored!
+Warning:  Point #491 is coincident with #418. Ignored!
+Warning:  Point #73 is coincident with #74. Ignored!
+Warning:  Point #53 is coincident with #56. Ignored!
+Warning:  Point #439 is coincident with #440. Ignored!
+Warning:  Point #406 is coincident with #468. Ignored!
+Warning:  Point #467 is coincident with #466. Ignored!
+Warning:  Point #420 is coincident with #419. Ignored!
+Warning:  Point #464 is coincident with #465. Ignored!
+Warning:  Point #12 is coincident with #45. Ignored!
+Warning:  Point #17 is coincident with #15. Ignored!
+Warning:  Point #21 is coincident with #19. Ignored!
+Warning:  Point #430 is coincident with #428. Ignored!
+Warning:  Point #391 is coincident with #429. Ignored!
+Warning:  Point #195 is coincident with #193. Ignored!
+Warning:  Point #291 is coincident with #194. Ignored!
+Warning:  Point #294 is coincident with #293. Ignored!
+Warning:  Point #598 is coincident with #592. Ignored!
+Warning:  Point #296 is coincident with #295. Ignored!
+Warning:  Point #596 is coincident with #597. Ignored!
+Warning:  Point #573 is coincident with #574. Ignored!
+Warning:  Point #392 is coincident with #425. Ignored!
+Warning:  Point #330 is coincident with #325. Ignored!
+Warning:  Point #326 is coincident with #327. Ignored!
+Warning:  Point #323 is coincident with #311. Ignored!
+Warning:  Point #315 is coincident with #316. Ignored!
+Warning:  Point #317 is coincident with #318. Ignored!
+Warning:  Point #620 is coincident with #621. Ignored!
+Warning:  Point #206 is coincident with #208. Ignored!
+Warning:  Point #645 is coincident with #624. Ignored!
+Warning:  Point #650 is coincident with #636. Ignored!
+Warning:  Point #610 is coincident with #608. Ignored!
+Warning:  Point #646 is coincident with #651. Ignored!
+Warning:  Point #225 is coincident with #224. Ignored!
+Warning:  Point #123 is coincident with #181. Ignored!
+Warning:  Point #121 is coincident with #110. Ignored!
+Warning:  Point #113 is coincident with #115. Ignored!
+Warning:  Point #183 is coincident with #184. Ignored!
+Warning:  Point #171 is coincident with #169. Ignored!
+Warning:  Point #228 is coincident with #262. Ignored!
+Warning:  Point #178 is coincident with #236. Ignored!
+Warning:  Point #307 is coincident with #308. Ignored!
+Warning:  Point #177 is coincident with #175. Ignored!
+Warning:  Point #186 is coincident with #185. Ignored!
+Warning:  Point #164 is coincident with #166. Ignored!
+Warning:  Point #71 is coincident with #54. Ignored!
+Warning:  Point #67 is coincident with #68. Ignored!
+Warning:  Point #76 is coincident with #75. Ignored!
+Warning:  Point #61 is coincident with #60. Ignored!
+Warning:  Point #289 is coincident with #283. Ignored!
+Warning:  Point #363 is coincident with #362. Ignored!
+Warning:  Point #505 is coincident with #504. Ignored!
+Warning:  Point #513 is coincident with #506. Ignored!
+Warning:  Point #509 is coincident with #499. Ignored!
+Warning:  Point #287 is coincident with #286. Ignored!
+Warning:  Point #492 is coincident with #494. Ignored!
+Warning:  Point #105 is coincident with #107. Ignored!
+Warning:  Point #133 is coincident with #132. Ignored!
+Warning:  Point #125 is coincident with #126. Ignored!
+Warning:  Point #129 is coincident with #128. Ignored!
+Warning:  Point #102 is coincident with #100. Ignored!
+Warning:  Point #94 is coincident with #92. Ignored!
+Warning:  Point #268 is coincident with #245. Ignored!
+Warning:  Point #441 is coincident with #366. Ignored!
+Warning:  Point #424 is coincident with #423. Ignored!
+Warning:  Point #448 is coincident with #447. Ignored!
+Warning:  Point #449 is coincident with #447. Ignored!
+Warning:  Point #444 is coincident with #445. Ignored!
+Warning:  Point #450 is coincident with #452. Ignored!
+Warning:  Point #97 is coincident with #599. Ignored!
+Warning:  Point #89 is coincident with #91. Ignored!
+Warning:  Point #101 is coincident with #600. Ignored!
+Warning:  Point #460 is coincident with #461. Ignored!
+Warning:  Point #454 is coincident with #455. Ignored!
+Warning:  Point #474 is coincident with #473. Ignored!
+Warning:  Point #381 is coincident with #333. Ignored!
+Warning:  Point #479 is coincident with #477. Ignored!
+Warning:  Point #475 is coincident with #476. Ignored!
+Warning:  Point #614 is coincident with #616. Ignored!
+Warning:  Point #490 is coincident with #489. Ignored!
+Warning:  Point #647 is coincident with #631. Ignored!
+Warning:  Point #630 is coincident with #649. Ignored!
+Warning:  Point #254 is coincident with #255. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 2.
+Warning:  Polygon 1 has two identical verts in facet 6.
+Warning:  Polygon 1 has two identical verts in facet 17.
+Warning:  Polygon 1 has two identical verts in facet 21.
+Warning:  Polygon 1 has two identical verts in facet 28.
+Warning:  Polygon 1 has two identical verts in facet 31.
+Warning:  Polygon 1 has two identical verts in facet 34.
+Warning:  Polygon 1 has two identical verts in facet 37.
+Warning:  Polygon 1 has two identical verts in facet 41.
+Warning:  Polygon 1 has two identical verts in facet 43.
+Warning:  Polygon 1 has two identical verts in facet 45.
+Warning:  Polygon 1 has two identical verts in facet 53.
+Warning:  Polygon 1 has two identical verts in facet 55.
+Warning:  Polygon 1 has two identical verts in facet 61.
+Warning:  Polygon 1 has two identical verts in facet 67.
+Warning:  Polygon 1 has two identical verts in facet 69.
+Warning:  Polygon 1 has two identical verts in facet 71.
+Warning:  Polygon 1 has two identical verts in facet 80.
+Warning:  Polygon 1 has two identical verts in facet 86.
+Warning:  Polygon 1 has two identical verts in facet 94.
+Warning:  Polygon 1 has two identical verts in facet 101.
+Warning:  Polygon 1 has two identical verts in facet 108.
+Warning:  Polygon 1 has two identical verts in facet 110.
+Warning:  Polygon 1 has two identical verts in facet 118.
+Warning:  Polygon 1 has two identical verts in facet 133.
+Warning:  Polygon 1 has two identical verts in facet 135.
+Warning:  Polygon 1 has two identical verts in facet 139.
+Warning:  Polygon 1 has two identical verts in facet 142.
+Warning:  Polygon 1 has two identical verts in facet 149.
+Warning:  Polygon 1 has two identical verts in facet 157.
+Warning:  Polygon 1 has two identical verts in facet 167.
+Warning:  Polygon 1 has two identical verts in facet 173.
+Warning:  Polygon 1 has two identical verts in facet 183.
+Warning:  Polygon 1 has two identical verts in facet 187.
+Warning:  Polygon 1 has two identical verts in facet 189.
+Warning:  Polygon 1 has two identical verts in facet 196.
+Warning:  Polygon 1 has two identical verts in facet 198.
+Warning:  Polygon 1 has two identical verts in facet 201.
+Warning:  Polygon 1 has two identical verts in facet 209.
+Warning:  Polygon 1 has two identical verts in facet 228.
+Warning:  Polygon 1 has two identical verts in facet 247.
+Warning:  Polygon 1 has two identical verts in facet 252.
+Warning:  Polygon 1 has two identical verts in facet 254.
+Warning:  Polygon 1 has two identical verts in facet 261.
+Warning:  Polygon 1 has two identical verts in facet 265.
+Warning:  Polygon 1 has two identical verts in facet 269.
+Warning:  Polygon 1 has two identical verts in facet 272.
+Warning:  Polygon 1 has two identical verts in facet 283.
+Warning:  Polygon 1 has two identical verts in facet 296.
+Warning:  Polygon 1 has two identical verts in facet 314.
+Warning:  Polygon 1 has two identical verts in facet 335.
+Warning:  Polygon 1 has two identical verts in facet 355.
+Warning:  Polygon 1 has two identical verts in facet 370.
+Warning:  Polygon 1 has two identical verts in facet 384.
+Warning:  Polygon 1 has two identical verts in facet 394.
+Warning:  Polygon 1 has two identical verts in facet 422.
+Warning:  Polygon 1 has two identical verts in facet 424.
+Warning:  Polygon 1 has two identical verts in facet 427.
+Warning:  Polygon 1 has two identical verts in facet 432.
+Warning:  Polygon 1 has two identical verts in facet 435.
+Warning:  Polygon 1 has two identical verts in facet 439.
+Warning:  Polygon 1 has two identical verts in facet 443.
+Warning:  Polygon 1 has two identical verts in facet 445.
+Warning:  Polygon 1 has two identical verts in facet 463.
+Warning:  Polygon 1 has two identical verts in facet 465.
+Warning:  Polygon 1 has two identical verts in facet 467.
+Warning:  Polygon 1 has two identical verts in facet 482.
+Warning:  Polygon 1 has two identical verts in facet 486.
+Warning:  Polygon 1 has two identical verts in facet 500.
+Warning:  Polygon 1 has two identical verts in facet 508.
+Warning:  Polygon 1 has two identical verts in facet 512.
+Warning:  Polygon 1 has two identical verts in facet 537.
+Warning:  Polygon 1 has two identical verts in facet 549.
+Warning:  Polygon 1 has two identical verts in facet 559.
+Warning:  Polygon 1 has two identical verts in facet 572.
+Warning:  Polygon 1 has two identical verts in facet 580.
+Warning:  Polygon 1 has two identical verts in facet 589.
+Warning:  Polygon 1 has two identical verts in facet 647.
+Warning:  Polygon 1 has two identical verts in facet 649.
+Warning:  Polygon 1 has two identical verts in facet 652.
+Warning:  Polygon 1 has two identical verts in facet 655.
+Warning:  Polygon 1 has two identical verts in facet 674.
+Warning:  Polygon 1 has two identical verts in facet 683.
+Warning:  Polygon 1 has two identical verts in facet 685.
+Warning:  Polygon 1 has two identical verts in facet 687.
+Warning:  Polygon 1 has two identical verts in facet 695.
+Warning:  Polygon 1 has two identical verts in facet 702.
+Warning:  Polygon 1 has two identical verts in facet 710.
+Warning:  Polygon 1 has two identical verts in facet 726.
+Warning:  Polygon 1 has two identical verts in facet 728.
+Warning:  Polygon 1 has two identical verts in facet 735.
+Warning:  Polygon 1 has two identical verts in facet 741.
+Warning:  Polygon 1 has two identical verts in facet 746.
+Warning:  Polygon 1 has two identical verts in facet 750.
+Warning:  Polygon 1 has two identical verts in facet 757.
+Warning:  Polygon 1 has two identical verts in facet 764.
+Warning:  Polygon 1 has two identical verts in facet 766.
+Warning:  Polygon 1 has two identical verts in facet 780.
+Warning:  Polygon 1 has two identical verts in facet 789.
+Warning:  Polygon 1 has two identical verts in facet 793.
+Warning:  Polygon 1 has two identical verts in facet 795.
+Warning:  Polygon 1 has two identical verts in facet 798.
+Warning:  Polygon 1 has two identical verts in facet 803.
+Warning:  Polygon 1 has two identical verts in facet 805.
+Warning:  Polygon 1 has two identical verts in facet 807.
+Warning:  Polygon 1 has two identical verts in facet 810.
+Warning:  Polygon 1 has two identical verts in facet 817.
+Warning:  Polygon 1 has two identical verts in facet 821.
+Warning:  Polygon 1 has two identical verts in facet 823.
+Warning:  Polygon 1 has two identical verts in facet 825.
+Warning:  Polygon 1 has two identical verts in facet 829.
+Warning:  Polygon 1 has two identical verts in facet 836.
+Warning:  Polygon 1 has two identical verts in facet 848.
+Warning:  Polygon 1 has two identical verts in facet 852.
+Warning:  Polygon 1 has two identical verts in facet 864.
+Warning:  Polygon 1 has two identical verts in facet 866.
+Warning:  Polygon 1 has two identical verts in facet 869.
+Warning:  Polygon 1 has two identical verts in facet 882.
+Warning:  Polygon 1 has two identical verts in facet 888.
+Warning:  Polygon 1 has two identical verts in facet 894.
+Warning:  Polygon 1 has two identical verts in facet 910.
+Warning:  Polygon 1 has two identical verts in facet 912.
+Warning:  Polygon 1 has two identical verts in facet 917.
+Warning:  Polygon 1 has two identical verts in facet 919.
+Warning:  Polygon 1 has two identical verts in facet 924.
+Warning:  Polygon 1 has two identical verts in facet 928.
+Warning:  Polygon 1 has two identical verts in facet 934.
+Warning:  Polygon 1 has two identical verts in facet 938.
+Warning:  Polygon 1 has two identical verts in facet 946.
+Warning:  Polygon 1 has two identical verts in facet 951.
+Warning:  Polygon 1 has two identical verts in facet 959.
+Warning:  Polygon 1 has two identical verts in facet 964.
+Warning:  Polygon 1 has two identical verts in facet 982.
+Warning:  Polygon 1 has two identical verts in facet 994.
+Warning:  Polygon 1 has two identical verts in facet 1027.
+Warning:  Polygon 1 has two identical verts in facet 1033.
+Warning:  Polygon 1 has two identical verts in facet 1036.
+Warning:  Polygon 1 has two identical verts in facet 1041.
+Warning:  Polygon 1 has two identical verts in facet 1057.
+Warning:  Polygon 1 has two identical verts in facet 1063.
+Warning:  Polygon 1 has two identical verts in facet 1070.
+Warning:  Polygon 1 has two identical verts in facet 1113.
+Warning:  Polygon 1 has two identical verts in facet 1117.
+Warning:  Polygon 1 has two identical verts in facet 1121.
+Warning:  Polygon 1 has two identical verts in facet 1124.
+Warning:  Polygon 1 has two identical verts in facet 1130.
+Warning:  Polygon 1 has two identical verts in facet 1151.
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.540672,0.113066).
+  Segment 1: [82, 84] #-1 (130)
+  Segment 2: [185, 179] #-1 (338)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 11788
+753, 1498
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.214862,-0.151265).
+  Segment 1: [231, 228] #-1 (339)
+  Segment 2: [321, 317] #-1 (446)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9453
+465, 834
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (1.2e-05,0.603772,0.179748).
+  Segment 1: [11, 8] #-1 (11)
+  Segment 2: [3, 0] #-1 (3)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8184
+334, 648
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0594845,0.310722,0.0731481).
+  Segment: [146,145] #-1 (214)
+  Facet:   [148,126,167] #266
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14462
+2501, 4994
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0259415,0.273321,0.405852).
+  Segment: [1473,1684] #-1 (2785)
+  Facet:   [1517,1516,1645] #2429
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7586
+468, 746
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.186655,0.625351,0.0272934).
+  Segment: [320,321] #-1 (504)
+  Facet:   [387,389,390] #591
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17569
+819, 1615
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.321583,-0.0285783).
+  Segment 1: [570, 568] #-1 (1101)
+  Segment 2: [269, 730] #-1 (1455)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3645
+683, 1338
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.123707,0.889547,-0.0434688).
+  Segment: [7,8] #-1 (149)
+  Facet:   [549,542,543] #1027
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6806
+764, 1408
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [54, 55, 143] #177
+  2nd: [54, 55, 75] #673
+The dihedral angle between them is 0.000390875 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1430
+1780, 2927
+Delaunizing vertices...
+Warning:  Point #9 is coincident with #10. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.024132,0.808298,-0.0800758).
+  Segment 1: [404, 398] #-1 (608)
+  Segment 2: [169, 172] #-1 (246)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10104
+570, 1094
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.69799,-0.0122687).
+  Segment 1: [471, 479] #-1 (921)
+  Segment 2: [15, 11] #-1 (17)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10518
+498, 929
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0848775,0.398457,-0.080498).
+  Segment: [477,476] #-1 (857)
+  Facet:   [65,72,70] #75
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17364
+829, 1616
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.287684,0.0274487).
+  Segment 1: [183, 72] #-1 (215)
+  Segment 2: [199, 204] #-1 (232)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 12106
+2805, 5372
+Delaunizing vertices...
+Delaunay seconds:  0.03125
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [797, 798, 799] #1346
+  2nd: [797, 798, 799] #1347
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7588
+516, 899
+Delaunizing vertices...
+Warning:  Point #23 is coincident with #102. Ignored!
+Warning:  Point #123 is coincident with #145. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.100864,0.278737,-0.0244514).
+  Segment: [454,460] #-1 (890)
+  Facet:   [428,513,417] #871
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15930
+178, 311
+Delaunizing vertices...
+Warning:  Point #95 is coincident with #10. Ignored!
+Warning:  Point #94 is coincident with #8. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0295703,0.340333,0.00459125).
+  Segment: [16,15] #-1 (6)
+  Facet:   [176,177,175] #232
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17694
+269, 510
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.118573,-0.346951).
+  Segment 1: [124, 121] #-1 (176)
+  Segment 2: [246, 244] #-1 (485)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1307
+869, 1604
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.115169,0.148874,-0.0559786).
+  Segment: [797,738] #-1 (1342)
+  Facet:   [735,596,595] #1271
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10559
+864, 1626
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-2e-06,0.687042,0.00431399).
+  Segment 1: [20, 740] #-1 (1288)
+  Segment 2: [793, 794] #-1 (1501)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9871
+657, 1237
+Delaunizing vertices...
+Warning:  Point #457 is coincident with #559. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.61902,0.0428188).
+  Segment 1: [498, 415] #-1 (926)
+  Segment 2: [295, 294] #-1 (459)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 926
+805, 1540
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.649268,-0.120365).
+  Segment 1: [634, 581] #-1 (1089)
+  Segment 2: [631, 653] #-1 (1049)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1266
+810, 1604
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.384147,0.374738,0.015822).
+  Segment 1: [85, 77] #-1 (422)
+  Segment 2: [281, 81] #-1 (83)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17293
+795, 1554
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [18, 16, 770] #1410
+  2nd: [18, 16, 770] #1475
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1276
+772, 1514
+Delaunizing vertices...
+Warning:  Point #377 is coincident with #330. Ignored!
+Warning:  Point #321 is coincident with #395. Ignored!
+Warning:  Point #154 is coincident with #138. Ignored!
+Warning:  Point #155 is coincident with #133. Ignored!
+Warning:  Point #475 is coincident with #437. Ignored!
+Warning:  Point #478 is coincident with #511. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0131724,0.459385,-0.0563211).
+  Segment: [470,469] #-1 (602)
+  Facet:   [479,511,476] #554
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10080
+687, 1326
+Delaunizing vertices...
+Warning:  Point #368 is coincident with #369. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 584.
+Warning:  Polygon 1 has two identical verts in facet 619.
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.688921,0.0366172).
+  Segment 1: [570, 571] #-1 (1057)
+  Segment 2: [169, 168] #-1 (255)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16282
+713, 1380
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [510, 511, 512] #880
+  2nd: [510, 511, 512] #927
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3432
+315, 609
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.231304,0.100188).
+  Segment 1: [35, 38] #-1 (228)
+  Segment 2: [250, 311] #-1 (583)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8193
+738, 1362
+Delaunizing vertices...
+Warning:  Point #407 is coincident with #251. Ignored!
+Warning:  Point #408 is coincident with #220. Ignored!
+Warning:  Point #410 is coincident with #215. Ignored!
+Warning:  Point #411 is coincident with #216. Ignored!
+Warning:  Point #412 is coincident with #225. Ignored!
+Warning:  Point #414 is coincident with #226. Ignored!
+Warning:  Point #232 is coincident with #417. Ignored!
+Warning:  Point #271 is coincident with #589. Ignored!
+Warning:  Point #409 is coincident with #267. Ignored!
+Warning:  Point #259 is coincident with #406. Ignored!
+Warning:  Point #260 is coincident with #405. Ignored!
+Warning:  Point #420 is coincident with #292. Ignored!
+Warning:  Point #419 is coincident with #295. Ignored!
+Warning:  Point #286 is coincident with #422. Ignored!
+Warning:  Point #284 is coincident with #590. Ignored!
+Warning:  Point #418 is coincident with #231. Ignored!
+Warning:  Point #230 is coincident with #416. Ignored!
+Warning:  Point #242 is coincident with #421. Ignored!
+Warning:  Point #415 is coincident with #223. Ignored!
+Warning:  Point #296 is coincident with #413. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [215, 216, 218] #311
+  2nd: [215, 216, 218] #629
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17161
+807, 1570
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0695152,0.406034,-0.0269264).
+  Segment: [81,115] #-1 (179)
+  Facet:   [108,753,769] #1405
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6383
+1603, 3036
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.100041,0.131156,-0.0173673).
+  Segment: [1423,1422] #-1 (2682)
+  Facet:   [1388,1387,1381] #2523
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8338
+1369, 2710
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.150788,0.310482).
+  Segment 1: [1341, 1342] #-1 (2661)
+  Segment 2: [1367, 1332] #-1 (2695)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18617
+2595, 5068
+Delaunizing vertices...
+Warning:  Point #2124 is coincident with #2170. Ignored!
+Warning:  Point #1043 is coincident with #1047. Ignored!
+Delaunay seconds:  0.03125
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 1566.
+Warning:  Polygon 1 has two identical verts in facet 1567.
+Warning:  Polygon 1 has two identical verts in facet 3677.
+Warning:  Polygon 1 has two identical verts in facet 3679.
+Found two exactly self-intersecting facets.
+  1st: [1042, 1047, 1022] #1548
+  2nd: [1042, 1047, 1046] #1563
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13463
+1099, 2158
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0302682,0.277465,0.482855).
+  Segment: [661,660] #-1 (1173)
+  Facet:   [530,667,529] #1137
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18592
+135, 248
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-6e-06,0.154612,-0.112004).
+  Segment 1: [127, 134] #-1 (247)
+  Segment 2: [57, 56] #-1 (87)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14602
+2332, 4198
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.437803,0.318474,-0.020387).
+  Segment 1: [1301, 1298] #-1 (1858)
+  Segment 2: [1610, 1616] #-1 (2349)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 12221
+337, 634
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0945985,0.312414,-0.217303).
+  Segment: [262,265] #-1 (477)
+  Facet:   [177,173,178] #324
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10568
+1026, 1908
+Delaunizing vertices...
+Warning:  Point #256 is coincident with #187. Ignored!
+Warning:  Point #1024 is coincident with #585. Ignored!
+Warning:  Point #188 is coincident with #706. Ignored!
+Warning:  Point #994 is coincident with #531. Ignored!
+Warning:  Point #269 is coincident with #255. Ignored!
+Warning:  Point #272 is coincident with #712. Ignored!
+Warning:  Point #286 is coincident with #712. Ignored!
+Warning:  Point #262 is coincident with #301. Ignored!
+Warning:  Point #196 is coincident with #301. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [706, 187, 297] #372
+  2nd: [706, 187, 297] #391
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 510
+493, 952
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [182, 145, 143] #298
+  2nd: [182, 145, 183] #306
+The dihedral angle between them is 0.00675587 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8227
+859, 1584
+Delaunizing vertices...
+Warning:  Point #341 is coincident with #406. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (4e-06,0.854433,0.0548542).
+  Segment 1: [503, 517] #-1 (880)
+  Segment 2: [390, 387] #-1 (673)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8230
+326, 582
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-6e-06,0.876851,-0.0656069).
+  Segment 1: [4, 6] #-1 (8)
+  Segment 2: [212, 216] #-1 (290)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14950
+2728, 5208
+Delaunizing vertices...
+Warning:  Point #228 is coincident with #1844. Ignored!
+Warning:  Point #1846 is coincident with #216. Ignored!
+Warning:  Point #214 is coincident with #1841. Ignored!
+Warning:  Point #221 is coincident with #1843. Ignored!
+Warning:  Point #1840 is coincident with #226. Ignored!
+Warning:  Point #229 is coincident with #1842. Ignored!
+Warning:  Point #1349 is coincident with #220. Ignored!
+Warning:  Point #1350 is coincident with #223. Ignored!
+Warning:  Point #217 is coincident with #1352. Ignored!
+Warning:  Point #1351 is coincident with #225. Ignored!
+Warning:  Point #820 is coincident with #6. Ignored!
+Warning:  Point #818 is coincident with #16. Ignored!
+Warning:  Point #19 is coincident with #819. Ignored!
+Warning:  Point #1242 is coincident with #18. Ignored!
+Warning:  Point #2 is coincident with #825. Ignored!
+Warning:  Point #179 is coincident with #1851. Ignored!
+Warning:  Point #5 is coincident with #830. Ignored!
+Warning:  Point #823 is coincident with #26. Ignored!
+Warning:  Point #25 is coincident with #828. Ignored!
+Warning:  Point #4 is coincident with #831. Ignored!
+Warning:  Point #1505 is coincident with #305. Ignored!
+Warning:  Point #1506 is coincident with #309. Ignored!
+Warning:  Point #301 is coincident with #1510. Ignored!
+Warning:  Point #1511 is coincident with #316. Ignored!
+Warning:  Point #303 is coincident with #1579. Ignored!
+Warning:  Point #1507 is coincident with #317. Ignored!
+Warning:  Point #1580 is coincident with #325. Ignored!
+Warning:  Point #320 is coincident with #1514. Ignored!
+Warning:  Point #1517 is coincident with #308. Ignored!
+Warning:  Point #1515 is coincident with #319. Ignored!
+Warning:  Point #255 is coincident with #1533. Ignored!
+Warning:  Point #256 is coincident with #1531. Ignored!
+Warning:  Point #244 is coincident with #1528. Ignored!
+Warning:  Point #1530 is coincident with #242. Ignored!
+Warning:  Point #1532 is coincident with #253. Ignored!
+Warning:  Point #234 is coincident with #1379. Ignored!
+Warning:  Point #1378 is coincident with #236. Ignored!
+Warning:  Point #1527 is coincident with #239. Ignored!
+Warning:  Point #1374 is coincident with #252. Ignored!
+Warning:  Point #2211 is coincident with #1862. Ignored!
+Warning:  Point #1419 is coincident with #97. Ignored!
+Warning:  Point #355 is coincident with #88. Ignored!
+Warning:  Point #765 is coincident with #75. Ignored!
+Warning:  Point #70 is coincident with #361. Ignored!
+Warning:  Point #72 is coincident with #354. Ignored!
+Warning:  Point #89 is coincident with #770. Ignored!
+Warning:  Point #766 is coincident with #80. Ignored!
+Warning:  Point #768 is coincident with #78. Ignored!
+Warning:  Point #769 is coincident with #92. Ignored!
+Warning:  Point #771 is coincident with #91. Ignored!
+Warning:  Point #754 is coincident with #147. Ignored!
+Warning:  Point #158 is coincident with #752. Ignored!
+Warning:  Point #816 is coincident with #165. Ignored!
+Warning:  Point #159 is coincident with #751. Ignored!
+Warning:  Point #156 is coincident with #742. Ignored!
+Warning:  Point #815 is coincident with #142. Ignored!
+Warning:  Point #748 is coincident with #155. Ignored!
+Warning:  Point #747 is coincident with #140. Ignored!
+Warning:  Point #148 is coincident with #743. Ignored!
+Warning:  Point #144 is coincident with #744. Ignored!
+Warning:  Point #170 is coincident with #1596. Ignored!
+Warning:  Point #187 is coincident with #1593. Ignored!
+Warning:  Point #188 is coincident with #1588. Ignored!
+Warning:  Point #1595 is coincident with #171. Ignored!
+Warning:  Point #1243 is coincident with #13. Ignored!
+Warning:  Point #1590 is coincident with #166. Ignored!
+Warning:  Point #182 is coincident with #1849. Ignored!
+Warning:  Point #183 is coincident with #1584. Ignored!
+Warning:  Point #1585 is coincident with #180. Ignored!
+Warning:  Point #1583 is coincident with #172. Ignored!
+Warning:  Point #330 is coincident with #61. Ignored!
+Warning:  Point #54 is coincident with #333. Ignored!
+Warning:  Point #331 is coincident with #60. Ignored!
+Warning:  Point #62 is coincident with #1233. Ignored!
+Warning:  Point #1235 is coincident with #65. Ignored!
+Warning:  Point #332 is coincident with #56. Ignored!
+Warning:  Point #51 is coincident with #1234. Ignored!
+Warning:  Point #57 is coincident with #1236. Ignored!
+Warning:  Point #53 is coincident with #1239. Ignored!
+Warning:  Point #1237 is coincident with #64. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A vertex lies in a segment.
+  Vertex:  [130] (0.053785,0.035387,0.309751).
+  Segment: [808, 792] #-1 (1005)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17818
+911, 1624
+Delaunizing vertices...
+Warning:  Point #358 is coincident with #787. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [787, 447, 369] #812
+  2nd: [787, 447, 369] #851
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 12121
+344, 672
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.126679,0.673712,0.359386).
+  Segment: [237,17] #-1 (397)
+  Facet:   [358,283,280] #496
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6388
+1365, 2595
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.233214,0.667374,-0.054236).
+  Segment: [974,784] #-1 (1774)
+  Facet:   [905,1011,995] #1934
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1561
+358, 710
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.134015,0.356973).
+  Segment 1: [326, 289] #-1 (615)
+  Segment 2: [331, 272] #-1 (558)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6387
+1573, 3060
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0852894,0.776727,-0.0760484).
+  Segment: [358,340] #-1 (684)
+  Facet:   [306,448,308] #1223
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6513
+1329, 2414
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.317621,0.463573).
+  Segment 1: [131, 129] #-1 (175)
+  Segment 2: [1326, 1324] #-1 (2402)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8231
+325, 576
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (2e-06,0.839528,0.00739304).
+  Segment 1: [284, 285] #-1 (449)
+  Segment 2: [219, 220] #-1 (311)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10358
+1241, 1975
+Delaunizing vertices...
+Warning:  Point #739 is coincident with #738. Ignored!
+Warning:  Point #276 is coincident with #274. Ignored!
+Warning:  Point #285 is coincident with #284. Ignored!
+Warning:  Point #1174 is coincident with #1173. Ignored!
+Warning:  Point #723 is coincident with #724. Ignored!
+Warning:  Point #2 is coincident with #3. Ignored!
+Warning:  Point #260 is coincident with #261. Ignored!
+Warning:  Point #162 is coincident with #160. Ignored!
+Warning:  Point #308 is coincident with #1146. Ignored!
+Warning:  Point #173 is coincident with #295. Ignored!
+Warning:  Point #174 is coincident with #165. Ignored!
+Warning:  Point #1142 is coincident with #1134. Ignored!
+Warning:  Point #166 is coincident with #168. Ignored!
+Warning:  Point #167 is coincident with #153. Ignored!
+Warning:  Point #151 is coincident with #175. Ignored!
+Warning:  Point #224 is coincident with #222. Ignored!
+Warning:  Point #226 is coincident with #225. Ignored!
+Warning:  Point #304 is coincident with #305. Ignored!
+Warning:  Point #435 is coincident with #434. Ignored!
+Warning:  Point #408 is coincident with #406. Ignored!
+Warning:  Point #343 is coincident with #345. Ignored!
+Warning:  Point #364 is coincident with #341. Ignored!
+Warning:  Point #349 is coincident with #347. Ignored!
+Warning:  Point #339 is coincident with #365. Ignored!
+Warning:  Point #413 is coincident with #411. Ignored!
+Warning:  Point #378 is coincident with #379. Ignored!
+Warning:  Point #279 is coincident with #277. Ignored!
+Warning:  Point #287 is coincident with #288. Ignored!
+Warning:  Point #1109 is coincident with #1111. Ignored!
+Warning:  Point #29 is coincident with #20. Ignored!
+Warning:  Point #19 is coincident with #18. Ignored!
+Warning:  Point #27 is coincident with #33. Ignored!
+Warning:  Point #1110 is coincident with #1113. Ignored!
+Warning:  Point #1053 is coincident with #1055. Ignored!
+Warning:  Point #1063 is coincident with #1068. Ignored!
+Warning:  Point #935 is coincident with #934. Ignored!
+Warning:  Point #959 is coincident with #960. Ignored!
+Warning:  Point #946 is coincident with #972. Ignored!
+Warning:  Point #961 is coincident with #973. Ignored!
+Warning:  Point #1115 is coincident with #1117. Ignored!
+Warning:  Point #963 is coincident with #973. Ignored!
+Warning:  Point #1118 is coincident with #1125. Ignored!
+Warning:  Point #1043 is coincident with #1059. Ignored!
+Warning:  Point #1235 is coincident with #1236. Ignored!
+Warning:  Point #1198 is coincident with #1199. Ignored!
+Warning:  Point #1208 is coincident with #1218. Ignored!
+Warning:  Point #776 is coincident with #804. Ignored!
+Warning:  Point #825 is coincident with #822. Ignored!
+Warning:  Point #337 is coincident with #336. Ignored!
+Warning:  Point #800 is coincident with #798. Ignored!
+Warning:  Point #355 is coincident with #353. Ignored!
+Warning:  Point #361 is coincident with #1216. Ignored!
+Warning:  Point #340 is coincident with #338. Ignored!
+Warning:  Point #74 is coincident with #72. Ignored!
+Warning:  Point #1217 is coincident with #1216. Ignored!
+Warning:  Point #562 is coincident with #564. Ignored!
+Warning:  Point #1099 is coincident with #1098. Ignored!
+Warning:  Point #576 is coincident with #577. Ignored!
+Warning:  Point #561 is coincident with #560. Ignored!
+Warning:  Point #1206 is coincident with #1215. Ignored!
+Warning:  Point #661 is coincident with #660. Ignored!
+Warning:  Point #619 is coincident with #617. Ignored!
+Warning:  Point #69 is coincident with #67. Ignored!
+Warning:  Point #823 is coincident with #568. Ignored!
+Warning:  Point #360 is coincident with #342. Ignored!
+Warning:  Point #567 is coincident with #569. Ignored!
+Warning:  Point #76 is coincident with #78. Ignored!
+Warning:  Point #520 is coincident with #519. Ignored!
+Warning:  Point #515 is coincident with #517. Ignored!
+Warning:  Point #525 is coincident with #523. Ignored!
+Warning:  Point #528 is coincident with #526. Ignored!
+Warning:  Point #754 is coincident with #752. Ignored!
+Warning:  Point #756 is coincident with #910. Ignored!
+Warning:  Point #834 is coincident with #836. Ignored!
+Warning:  Point #906 is coincident with #907. Ignored!
+Warning:  Point #1050 is coincident with #1048. Ignored!
+Warning:  Point #1101 is coincident with #1100. Ignored!
+Warning:  Point #1197 is coincident with #830. Ignored!
+Warning:  Point #797 is coincident with #803. Ignored!
+Warning:  Point #1049 is coincident with #1047. Ignored!
+Warning:  Point #1102 is coincident with #1104. Ignored!
+Warning:  Point #1044 is coincident with #1052. Ignored!
+Warning:  Point #1024 is coincident with #1034. Ignored!
+Warning:  Point #911 is coincident with #905. Ignored!
+Warning:  Point #982 is coincident with #983. Ignored!
+Warning:  Point #113 is coincident with #116. Ignored!
+Warning:  Point #987 is coincident with #985. Ignored!
+Warning:  Point #95 is coincident with #98. Ignored!
+Warning:  Point #922 is coincident with #921. Ignored!
+Warning:  Point #1006 is coincident with #1001. Ignored!
+Warning:  Point #926 is coincident with #924. Ignored!
+Warning:  Point #755 is coincident with #758. Ignored!
+Warning:  Point #531 is coincident with #533. Ignored!
+Warning:  Point #714 is coincident with #716. Ignored!
+Warning:  Point #777 is coincident with #779. Ignored!
+Warning:  Point #713 is coincident with #715. Ignored!
+Warning:  Point #534 is coincident with #552. Ignored!
+Warning:  Point #1003 is coincident with #1004. Ignored!
+Warning:  Point #781 is coincident with #782. Ignored!
+Warning:  Point #652 is coincident with #743. Ignored!
+Warning:  Point #702 is coincident with #653. Ignored!
+Warning:  Point #736 is coincident with #735. Ignored!
+Warning:  Point #665 is coincident with #687. Ignored!
+Warning:  Point #686 is coincident with #626. Ignored!
+Warning:  Point #741 is coincident with #740. Ignored!
+Warning:  Point #300 is coincident with #299. Ignored!
+Warning:  Point #143 is coincident with #141. Ignored!
+Warning:  Point #131 is coincident with #137. Ignored!
+Warning:  Point #139 is coincident with #140. Ignored!
+Warning:  Point #138 is coincident with #282. Ignored!
+Warning:  Point #289 is coincident with #281. Ignored!
+Warning:  Point #269 is coincident with #271. Ignored!
+Warning:  Point #382 is coincident with #383. Ignored!
+Warning:  Point #123 is coincident with #120. Ignored!
+Warning:  Point #265 is coincident with #266. Ignored!
+Warning:  Point #344 is coincident with #384. Ignored!
+Warning:  Point #346 is coincident with #372. Ignored!
+Warning:  Point #370 is coincident with #369. Ignored!
+Warning:  Point #358 is coincident with #368. Ignored!
+Warning:  Point #227 is coincident with #217. Ignored!
+Warning:  Point #89 is coincident with #91. Ignored!
+Warning:  Point #359 is coincident with #366. Ignored!
+Warning:  Point #387 is coincident with #386. Ignored!
+Warning:  Point #206 is coincident with #184. Ignored!
+Warning:  Point #148 is coincident with #150. Ignored!
+Warning:  Point #220 is coincident with #219. Ignored!
+Warning:  Point #158 is coincident with #157. Ignored!
+Warning:  Point #156 is coincident with #152. Ignored!
+Warning:  Point #1126 is coincident with #1127. Ignored!
+Warning:  Point #170 is coincident with #291. Ignored!
+Warning:  Point #303 is coincident with #1148. Ignored!
+Warning:  Point #1145 is coincident with #1137. Ignored!
+Warning:  Point #205 is coincident with #218. Ignored!
+Warning:  Point #185 is coincident with #183. Ignored!
+Warning:  Point #448 is coincident with #447. Ignored!
+Warning:  Point #450 is coincident with #449. Ignored!
+Warning:  Point #454 is coincident with #452. Ignored!
+Warning:  Point #453 is coincident with #452. Ignored!
+Warning:  Point #426 is coincident with #427. Ignored!
+Warning:  Point #422 is coincident with #424. Ignored!
+Warning:  Point #187 is coincident with #214. Ignored!
+Warning:  Point #190 is coincident with #188. Ignored!
+Warning:  Point #192 is coincident with #210. Ignored!
+Warning:  Point #326 is coincident with #324. Ignored!
+Warning:  Point #1149 is coincident with #1150. Ignored!
+Warning:  Point #1152 is coincident with #1154. Ignored!
+Warning:  Point #240 is coincident with #263. Ignored!
+Warning:  Point #1164 is coincident with #1153. Ignored!
+Warning:  Point #1163 is coincident with #1156. Ignored!
+Warning:  Point #257 is coincident with #258. Ignored!
+Warning:  Point #256 is coincident with #236. Ignored!
+Warning:  Point #241 is coincident with #239. Ignored!
+Warning:  Point #196 is coincident with #194. Ignored!
+Warning:  Point #209 is coincident with #208. Ignored!
+Warning:  Point #52 is coincident with #54. Ignored!
+Warning:  Point #484 is coincident with #476. Ignored!
+Warning:  Point #483 is coincident with #477. Ignored!
+Warning:  Point #462 is coincident with #464. Ignored!
+Warning:  Point #441 is coincident with #440. Ignored!
+Warning:  Point #399 is coincident with #431. Ignored!
+Warning:  Point #1201 is coincident with #195. Ignored!
+Warning:  Point #879 is coincident with #877. Ignored!
+Warning:  Point #504 is coincident with #503. Ignored!
+Warning:  Point #467 is coincident with #461. Ignored!
+Warning:  Point #510 is coincident with #511. Ignored!
+Warning:  Point #858 is coincident with #859. Ignored!
+Warning:  Point #883 is coincident with #846. Ignored!
+Warning:  Point #839 is coincident with #843. Ignored!
+Warning:  Point #1175 is coincident with #1173. Ignored!
+Warning:  Point #698 is coincident with #708. Ignored!
+Warning:  Point #696 is coincident with #695. Ignored!
+Warning:  Point #579 is coincident with #578. Ignored!
+Warning:  Point #705 is coincident with #704. Ignored!
+Warning:  Point #640 is coincident with #683. Ignored!
+Warning:  Point #649 is coincident with #647. Ignored!
+Warning:  Point #685 is coincident with #644. Ignored!
+Warning:  Point #1008 is coincident with #1010. Ignored!
+Warning:  Point #995 is coincident with #996. Ignored!
+Warning:  Point #994 is coincident with #998. Ignored!
+Warning:  Point #546 is coincident with #548. Ignored!
+Warning:  Point #671 is coincident with #670. Ignored!
+Warning:  Point #675 is coincident with #674. Ignored!
+Warning:  Point #681 is coincident with #682. Ignored!
+Warning:  Point #541 is coincident with #543. Ignored!
+Warning:  Point #678 is coincident with #677. Ignored!
+Warning:  Point #636 is coincident with #637. Ignored!
+Warning:  Point #893 is coincident with #896. Ignored!
+Warning:  Point #891 is coincident with #892. Ignored!
+Warning:  Point #980 is coincident with #988. Ignored!
+Warning:  Point #1075 is coincident with #1012. Ignored!
+Warning:  Point #917 is coincident with #915. Ignored!
+Warning:  Point #786 is coincident with #792. Ignored!
+Warning:  Point #783 is coincident with #787. Ignored!
+Warning:  Point #928 is coincident with #930. Ignored!
+Warning:  Point #1013 is coincident with #1011. Ignored!
+Warning:  Point #101 is coincident with #104. Ignored!
+Warning:  Point #977 is coincident with #1026. Ignored!
+Warning:  Point #978 is coincident with #976. Ignored!
+Warning:  Point #914 is coincident with #913. Ignored!
+Warning:  Point #956 is coincident with #975. Ignored!
+Warning:  Point #110 is coincident with #107. Ignored!
+Warning:  Point #860 is coincident with #862. Ignored!
+Warning:  Point #870 is coincident with #861. Ignored!
+Warning:  Point #1187 is coincident with #1191. Ignored!
+Warning:  Point #1083 is coincident with #1081. Ignored!
+Warning:  Point #1018 is coincident with #1029. Ignored!
+Warning:  Point #1017 is coincident with #1027. Ignored!
+Warning:  Point #1085 is coincident with #1084. Ignored!
+Warning:  Point #1194 is coincident with #1188. Ignored!
+Warning:  Point #602 is coincident with #817. Ignored!
+Warning:  Point #746 is coincident with #747. Ignored!
+Warning:  Point #866 is coincident with #864. Ignored!
+Warning:  Point #824 is coincident with #811. Ignored!
+Warning:  Point #810 is coincident with #811. Ignored!
+Warning:  Point #537 is coincident with #539. Ignored!
+Warning:  Point #711 is coincident with #710. Ignored!
+Warning:  Point #1225 is coincident with #1227. Ignored!
+Warning:  Point #599 is coincident with #601. Ignored!
+Warning:  Point #712 is coincident with #709. Ignored!
+Warning:  Point #815 is coincident with #813. Ignored!
+Warning:  Point #600 is coincident with #809. Ignored!
+Warning:  Point #497 is coincident with #496. Ignored!
+Warning:  Point #725 is coincident with #718. Ignored!
+Warning:  Point #613 is coincident with #717. Ignored!
+Warning:  Point #59 is coincident with #61. Ignored!
+Warning:  Point #71 is coincident with #70. Ignored!
+Warning:  Point #772 is coincident with #618. Ignored!
+Warning:  Point #57 is coincident with #58. Ignored!
+Warning:  Point #50 is coincident with #48. Ignored!
+Warning:  Point #63 is coincident with #65. Ignored!
+Warning:  Point #722 is coincident with #616. Ignored!
+Warning:  Point #1213 is coincident with #1221. Ignored!
+Warning:  Point #730 is coincident with #731. Ignored!
+Warning:  Point #607 is coincident with #608. Ignored!
+Warning:  Point #732 is coincident with #744. Ignored!
+Warning:  Point #1220 is coincident with #498. Ignored!
+Warning:  Point #492 is coincident with #493. Ignored!
+Warning:  Point #458 is coincident with #456. Ignored!
+Warning:  Point #887 is coincident with #886. Ignored!
+Warning:  Point #508 is coincident with #472. Ignored!
+Warning:  Point #35 is coincident with #37. Ignored!
+Warning:  Point #807 is coincident with #808. Ignored!
+Warning:  Point #806 is coincident with #805. Ignored!
+Warning:  Point #1209 is coincident with #1210. Ignored!
+Warning:  Point #1211 is coincident with #1219. Ignored!
+Warning:  Point #14 is coincident with #15. Ignored!
+Warning:  Point #1090 is coincident with #1089. Ignored!
+Warning:  Point #838 is coincident with #837. Ignored!
+Warning:  Point #39 is coincident with #40. Ignored!
+Warning:  Point #970 is coincident with #967. Ignored!
+Warning:  Point #966 is coincident with #968. Ignored!
+Warning:  Point #7 is coincident with #6. Ignored!
+Warning:  Point #1097 is coincident with #1096. Ignored!
+Warning:  Point #957 is coincident with #950. Ignored!
+Warning:  Point #943 is coincident with #938. Ignored!
+Warning:  Point #1070 is coincident with #1067. Ignored!
+Warning:  Point #1182 is coincident with #1181. Ignored!
+Warning:  Point #951 is coincident with #953. Ignored!
+Warning:  Point #1072 is coincident with #1095. Ignored!
+Warning:  Point #1094 is coincident with #1074. Ignored!
+Warning:  Point #827 is coincident with #821. Ignored!
+Warning:  Point #23 is coincident with #22. Ignored!
+Warning:  Point #1185 is coincident with #1177. Ignored!
+Warning:  Point #506 is coincident with #505. Ignored!
+Warning:  Point #482 is coincident with #473. Ignored!
+Warning:  Point #502 is coincident with #501. Ignored!
+Warning:  Point #490 is coincident with #489. Ignored!
+Warning:  Point #487 is coincident with #488. Ignored!
+Warning:  Point #500 is coincident with #499. Ignored!
+Warning:  Point #433 is coincident with #403. Ignored!
+Warning:  Point #402 is coincident with #438. Ignored!
+Warning:  Point #202 is coincident with #230. Ignored!
+Warning:  Point #1202 is coincident with #407. Ignored!
+Warning:  Point #254 is coincident with #253. Ignored!
+Warning:  Point #251 is coincident with #237. Ignored!
+Warning:  Point #317 is coincident with #1162. Ignored!
+Warning:  Point #1161 is coincident with #1169. Ignored!
+Warning:  Point #249 is coincident with #247. Ignored!
+Warning:  Point #318 is coincident with #1160. Ignored!
+Warning:  Point #319 is coincident with #246. Ignored!
+Warning:  Point #332 is coincident with #334. Ignored!
+Warning:  Point #1172 is coincident with #330. Ignored!
+Warning:  Point #201 is coincident with #199. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 2.
+Warning:  Polygon 1 has two identical verts in facet 7.
+Warning:  Polygon 1 has two identical verts in facet 9.
+Warning:  Polygon 1 has two identical verts in facet 15.
+Warning:  Polygon 1 has two identical verts in facet 18.
+Warning:  Polygon 1 has two identical verts in facet 24.
+Warning:  Polygon 1 has two identical verts in facet 26.
+Warning:  Polygon 1 has two identical verts in facet 28.
+Warning:  Polygon 1 has two identical verts in facet 34.
+Warning:  Polygon 1 has two identical verts in facet 38.
+Warning:  Polygon 1 has two identical verts in facet 41.
+Warning:  Polygon 1 has two identical verts in facet 46.
+Warning:  Polygon 1 has two identical verts in facet 48.
+Warning:  Polygon 1 has two identical verts in facet 56.
+Warning:  Polygon 1 has two identical verts in facet 60.
+Warning:  Polygon 1 has two identical verts in facet 62.
+Warning:  Polygon 1 has two identical verts in facet 66.
+Warning:  Polygon 1 has two identical verts in facet 68.
+Warning:  Polygon 1 has two identical verts in facet 72.
+Warning:  Polygon 1 has two identical verts in facet 76.
+Warning:  Polygon 1 has two identical verts in facet 80.
+Warning:  Polygon 1 has two identical verts in facet 83.
+Warning:  Polygon 1 has two identical verts in facet 87.
+Warning:  Polygon 1 has two identical verts in facet 89.
+Warning:  Polygon 1 has two identical verts in facet 91.
+Warning:  Polygon 1 has two identical verts in facet 93.
+Warning:  Polygon 1 has two identical verts in facet 102.
+Warning:  Polygon 1 has two identical verts in facet 104.
+Warning:  Polygon 1 has two identical verts in facet 110.
+Warning:  Polygon 1 has two identical verts in facet 112.
+Warning:  Polygon 1 has two identical verts in facet 116.
+Warning:  Polygon 1 has two identical verts in facet 118.
+Warning:  Polygon 1 has two identical verts in facet 122.
+Warning:  Polygon 1 has two identical verts in facet 124.
+Warning:  Polygon 1 has two identical verts in facet 128.
+Warning:  Polygon 1 has two identical verts in facet 130.
+Warning:  Polygon 1 has two identical verts in facet 135.
+Warning:  Polygon 1 has two identical verts in facet 137.
+Warning:  Polygon 1 has two identical verts in facet 153.
+Warning:  Polygon 1 has two identical verts in facet 158.
+Warning:  Polygon 1 has two identical verts in facet 162.
+Warning:  Polygon 1 has two identical verts in facet 164.
+Warning:  Polygon 1 has two identical verts in facet 166.
+Warning:  Polygon 1 has two identical verts in facet 168.
+Warning:  Polygon 1 has two identical verts in facet 171.
+Warning:  Polygon 1 has two identical verts in facet 174.
+Warning:  Polygon 1 has two identical verts in facet 178.
+Warning:  Polygon 1 has two identical verts in facet 181.
+Warning:  Polygon 1 has two identical verts in facet 183.
+Warning:  Polygon 1 has two identical verts in facet 186.
+Warning:  Polygon 1 has two identical verts in facet 191.
+Warning:  Polygon 1 has two identical verts in facet 203.
+Warning:  Polygon 1 has two identical verts in facet 205.
+Warning:  Polygon 1 has two identical verts in facet 207.
+Warning:  Polygon 1 has two identical verts in facet 222.
+Warning:  Polygon 1 has two identical verts in facet 227.
+Warning:  Polygon 1 has two identical verts in facet 233.
+Warning:  Polygon 1 has two identical verts in facet 238.
+Warning:  Polygon 1 has two identical verts in facet 246.
+Warning:  Polygon 1 has two identical verts in facet 250.
+Warning:  Polygon 1 has two identical verts in facet 252.
+Warning:  Polygon 1 has two identical verts in facet 256.
+Warning:  Polygon 1 has two identical verts in facet 261.
+Warning:  Polygon 1 has two identical verts in facet 264.
+Warning:  Polygon 1 has two identical verts in facet 269.
+Warning:  Polygon 1 has two identical verts in facet 271.
+Warning:  Polygon 1 has two identical verts in facet 275.
+Warning:  Polygon 1 has two identical verts in facet 277.
+Warning:  Polygon 1 has two identical verts in facet 279.
+Warning:  Polygon 1 has two identical verts in facet 282.
+Warning:  Polygon 1 has two identical verts in facet 290.
+Warning:  Polygon 1 has two identical verts in facet 292.
+Warning:  Polygon 1 has two identical verts in facet 311.
+Warning:  Polygon 1 has two identical verts in facet 319.
+Warning:  Polygon 1 has two identical verts in facet 321.
+Warning:  Polygon 1 has two identical verts in facet 326.
+Warning:  Polygon 1 has two identical verts in facet 330.
+Warning:  Polygon 1 has two identical verts in facet 334.
+Warning:  Polygon 1 has two identical verts in facet 337.
+Warning:  Polygon 1 has two identical verts in facet 343.
+Warning:  Polygon 1 has two identical verts in facet 345.
+Warning:  Polygon 1 has two identical verts in facet 353.
+Warning:  Polygon 1 has two identical verts in facet 356.
+Warning:  Polygon 1 has two identical verts in facet 360.
+Warning:  Polygon 1 has two identical verts in facet 365.
+Warning:  Polygon 1 has two identical verts in facet 370.
+Warning:  Polygon 1 has two identical verts in facet 373.
+Warning:  Polygon 1 has two identical verts in facet 378.
+Warning:  Polygon 1 has two identical verts in facet 383.
+Warning:  Polygon 1 has two identical verts in facet 392.
+Warning:  Polygon 1 has two identical verts in facet 402.
+Warning:  Polygon 1 has two identical verts in facet 407.
+Warning:  Polygon 1 has two identical verts in facet 409.
+Warning:  Polygon 1 has two identical verts in facet 417.
+Warning:  Polygon 1 has two identical verts in facet 423.
+Warning:  Polygon 1 has two identical verts in facet 426.
+Warning:  Polygon 1 has two identical verts in facet 428.
+Warning:  Polygon 1 has two identical verts in facet 430.
+Warning:  Polygon 1 has two identical verts in facet 434.
+Warning:  Polygon 1 has two identical verts in facet 446.
+Warning:  Polygon 1 has two identical verts in facet 454.
+Warning:  Polygon 1 has two identical verts in facet 461.
+Warning:  Polygon 1 has two identical verts in facet 470.
+Warning:  Polygon 1 has two identical verts in facet 472.
+Warning:  Polygon 1 has two identical verts in facet 474.
+Warning:  Polygon 1 has two identical verts in facet 478.
+Warning:  Polygon 1 has two identical verts in facet 480.
+Warning:  Polygon 1 has two identical verts in facet 484.
+Warning:  Polygon 1 has two identical verts in facet 490.
+Warning:  Polygon 1 has two identical verts in facet 498.
+Warning:  Polygon 1 has two identical verts in facet 500.
+Warning:  Polygon 1 has two identical verts in facet 504.
+Warning:  Polygon 1 has two identical verts in facet 508.
+Warning:  Polygon 1 has two identical verts in facet 512.
+Warning:  Polygon 1 has two identical verts in facet 514.
+Warning:  Polygon 1 has two identical verts in facet 517.
+Warning:  Polygon 1 has two identical verts in facet 521.
+Warning:  Polygon 1 has two identical verts in facet 535.
+Warning:  Polygon 1 has two identical verts in facet 551.
+Warning:  Polygon 1 has two identical verts in facet 556.
+Warning:  Polygon 1 has two identical verts in facet 560.
+Warning:  Polygon 1 has two identical verts in facet 581.
+Warning:  Polygon 1 has two identical verts in facet 583.
+Warning:  Polygon 1 has two identical verts in facet 587.
+Warning:  Polygon 1 has two identical verts in facet 603.
+Warning:  Polygon 1 has two identical verts in facet 605.
+Warning:  Polygon 1 has two identical verts in facet 608.
+Warning:  Polygon 1 has two identical verts in facet 617.
+Warning:  Polygon 1 has two identical verts in facet 622.
+Warning:  Polygon 1 has two identical verts in facet 625.
+Warning:  Polygon 1 has two identical verts in facet 629.
+Warning:  Polygon 1 has two identical verts in facet 631.
+Warning:  Polygon 1 has two identical verts in facet 636.
+Warning:  Polygon 1 has two identical verts in facet 641.
+Warning:  Polygon 1 has two identical verts in facet 643.
+Warning:  Polygon 1 has two identical verts in facet 657.
+Warning:  Polygon 1 has two identical verts in facet 661.
+Warning:  Polygon 1 has two identical verts in facet 663.
+Warning:  Polygon 1 has two identical verts in facet 665.
+Warning:  Polygon 1 has two identical verts in facet 668.
+Warning:  Polygon 1 has two identical verts in facet 673.
+Warning:  Polygon 1 has two identical verts in facet 677.
+Warning:  Polygon 1 has two identical verts in facet 682.
+Warning:  Polygon 1 has two identical verts in facet 706.
+Warning:  Polygon 1 has two identical verts in facet 710.
+Warning:  Polygon 1 has two identical verts in facet 713.
+Warning:  Polygon 1 has two identical verts in facet 719.
+Warning:  Polygon 1 has two identical verts in facet 723.
+Warning:  Polygon 1 has two identical verts in facet 729.
+Warning:  Polygon 1 has two identical verts in facet 737.
+Warning:  Polygon 1 has two identical verts in facet 739.
+Warning:  Polygon 1 has two identical verts in facet 743.
+Warning:  Polygon 1 has two identical verts in facet 747.
+Warning:  Polygon 1 has two identical verts in facet 754.
+Warning:  Polygon 1 has two identical verts in facet 757.
+Warning:  Polygon 1 has two identical verts in facet 760.
+Warning:  Polygon 1 has two identical verts in facet 765.
+Warning:  Polygon 1 has two identical verts in facet 772.
+Warning:  Polygon 1 has two identical verts in facet 776.
+Warning:  Polygon 1 has two identical verts in facet 782.
+Warning:  Polygon 1 has two identical verts in facet 785.
+Warning:  Polygon 1 has two identical verts in facet 790.
+Warning:  Polygon 1 has two identical verts in facet 799.
+Warning:  Polygon 1 has two identical verts in facet 803.
+Warning:  Polygon 1 has two identical verts in facet 808.
+Warning:  Polygon 1 has two identical verts in facet 813.
+Warning:  Polygon 1 has two identical verts in facet 815.
+Warning:  Polygon 1 has two identical verts in facet 830.
+Warning:  Polygon 1 has two identical verts in facet 833.
+Warning:  Polygon 1 has two identical verts in facet 838.
+Warning:  Polygon 1 has two identical verts in facet 850.
+Warning:  Polygon 1 has two identical verts in facet 852.
+Warning:  Polygon 1 has two identical verts in facet 876.
+Warning:  Polygon 1 has two identical verts in facet 878.
+Warning:  Polygon 1 has two identical verts in facet 885.
+Warning:  Polygon 1 has two identical verts in facet 902.
+Warning:  Polygon 1 has two identical verts in facet 938.
+Warning:  Polygon 1 has two identical verts in facet 952.
+Warning:  Polygon 1 has two identical verts in facet 954.
+Warning:  Polygon 1 has two identical verts in facet 966.
+Warning:  Polygon 1 has two identical verts in facet 985.
+Warning:  Polygon 1 has two identical verts in facet 992.
+Warning:  Polygon 1 has two identical verts in facet 998.
+Warning:  Polygon 1 has two identical verts in facet 1000.
+Warning:  Polygon 1 has two identical verts in facet 1006.
+Warning:  Polygon 1 has two identical verts in facet 1008.
+Warning:  Polygon 1 has two identical verts in facet 1013.
+Warning:  Polygon 1 has two identical verts in facet 1016.
+Warning:  Polygon 1 has two identical verts in facet 1019.
+Warning:  Polygon 1 has two identical verts in facet 1021.
+Warning:  Polygon 1 has two identical verts in facet 1046.
+Warning:  Polygon 1 has two identical verts in facet 1061.
+Warning:  Polygon 1 has two identical verts in facet 1066.
+Warning:  Polygon 1 has two identical verts in facet 1077.
+Warning:  Polygon 1 has two identical verts in facet 1085.
+Warning:  Polygon 1 has two identical verts in facet 1087.
+Warning:  Polygon 1 has two identical verts in facet 1091.
+Warning:  Polygon 1 has two identical verts in facet 1095.
+Warning:  Polygon 1 has two identical verts in facet 1097.
+Warning:  Polygon 1 has two identical verts in facet 1099.
+Warning:  Polygon 1 has two identical verts in facet 1101.
+Warning:  Polygon 1 has two identical verts in facet 1104.
+Warning:  Polygon 1 has two identical verts in facet 1112.
+Warning:  Polygon 1 has two identical verts in facet 1116.
+Warning:  Polygon 1 has two identical verts in facet 1119.
+Warning:  Polygon 1 has two identical verts in facet 1128.
+Warning:  Polygon 1 has two identical verts in facet 1130.
+Warning:  Polygon 1 has two identical verts in facet 1142.
+Warning:  Polygon 1 has two identical verts in facet 1148.
+Warning:  Polygon 1 has two identical verts in facet 1150.
+Warning:  Polygon 1 has two identical verts in facet 1154.
+Warning:  Polygon 1 has two identical verts in facet 1159.
+Warning:  Polygon 1 has two identical verts in facet 1162.
+Warning:  Polygon 1 has two identical verts in facet 1166.
+Warning:  Polygon 1 has two identical verts in facet 1170.
+Warning:  Polygon 1 has two identical verts in facet 1172.
+Warning:  Polygon 1 has two identical verts in facet 1177.
+Warning:  Polygon 1 has two identical verts in facet 1180.
+Warning:  Polygon 1 has two identical verts in facet 1182.
+Warning:  Polygon 1 has two identical verts in facet 1184.
+Warning:  Polygon 1 has two identical verts in facet 1186.
+Warning:  Polygon 1 has two identical verts in facet 1188.
+Warning:  Polygon 1 has two identical verts in facet 1190.
+Warning:  Polygon 1 has two identical verts in facet 1202.
+Warning:  Polygon 1 has two identical verts in facet 1211.
+Warning:  Polygon 1 has two identical verts in facet 1215.
+Warning:  Polygon 1 has two identical verts in facet 1226.
+Warning:  Polygon 1 has two identical verts in facet 1233.
+Warning:  Polygon 1 has two identical verts in facet 1237.
+Warning:  Polygon 1 has two identical verts in facet 1239.
+Warning:  Polygon 1 has two identical verts in facet 1244.
+Warning:  Polygon 1 has two identical verts in facet 1246.
+Warning:  Polygon 1 has two identical verts in facet 1250.
+Warning:  Polygon 1 has two identical verts in facet 1252.
+Warning:  Polygon 1 has two identical verts in facet 1254.
+Warning:  Polygon 1 has two identical verts in facet 1257.
+Warning:  Polygon 1 has two identical verts in facet 1259.
+Warning:  Polygon 1 has two identical verts in facet 1261.
+Warning:  Polygon 1 has two identical verts in facet 1263.
+Warning:  Polygon 1 has two identical verts in facet 1267.
+Warning:  Polygon 1 has two identical verts in facet 1280.
+Warning:  Polygon 1 has two identical verts in facet 1283.
+Warning:  Polygon 1 has two identical verts in facet 1286.
+Warning:  Polygon 1 has two identical verts in facet 1289.
+Warning:  Polygon 1 has two identical verts in facet 1299.
+Warning:  Polygon 1 has two identical verts in facet 1301.
+Warning:  Polygon 1 has two identical verts in facet 1303.
+Warning:  Polygon 1 has two identical verts in facet 1311.
+Warning:  Polygon 1 has two identical verts in facet 1313.
+Warning:  Polygon 1 has two identical verts in facet 1320.
+Warning:  Polygon 1 has two identical verts in facet 1322.
+Warning:  Polygon 1 has two identical verts in facet 1324.
+Warning:  Polygon 1 has two identical verts in facet 1326.
+Warning:  Polygon 1 has two identical verts in facet 1342.
+Warning:  Polygon 1 has two identical verts in facet 1345.
+Warning:  Polygon 1 has two identical verts in facet 1349.
+Warning:  Polygon 1 has two identical verts in facet 1351.
+Warning:  Polygon 1 has two identical verts in facet 1355.
+Warning:  Polygon 1 has two identical verts in facet 1357.
+Warning:  Polygon 1 has two identical verts in facet 1367.
+Warning:  Polygon 1 has two identical verts in facet 1369.
+Warning:  Polygon 1 has two identical verts in facet 1376.
+Warning:  Polygon 1 has two identical verts in facet 1384.
+Warning:  Polygon 1 has two identical verts in facet 1392.
+Warning:  Polygon 1 has two identical verts in facet 1404.
+Warning:  Polygon 1 has two identical verts in facet 1407.
+Warning:  Polygon 1 has two identical verts in facet 1409.
+Warning:  Polygon 1 has two identical verts in facet 1411.
+Warning:  Polygon 1 has two identical verts in facet 1413.
+Warning:  Polygon 1 has two identical verts in facet 1415.
+Warning:  Polygon 1 has two identical verts in facet 1417.
+Warning:  Polygon 1 has two identical verts in facet 1428.
+Warning:  Polygon 1 has two identical verts in facet 1430.
+Warning:  Polygon 1 has two identical verts in facet 1434.
+Warning:  Polygon 1 has two identical verts in facet 1436.
+Warning:  Polygon 1 has two identical verts in facet 1440.
+Warning:  Polygon 1 has two identical verts in facet 1442.
+Warning:  Polygon 1 has two identical verts in facet 1446.
+Warning:  Polygon 1 has two identical verts in facet 1450.
+Warning:  Polygon 1 has two identical verts in facet 1459.
+Warning:  Polygon 1 has two identical verts in facet 1462.
+Warning:  Polygon 1 has two identical verts in facet 1471.
+Warning:  Polygon 1 has two identical verts in facet 1483.
+Warning:  Polygon 1 has two identical verts in facet 1491.
+Warning:  Polygon 1 has two identical verts in facet 1496.
+Warning:  Polygon 1 has two identical verts in facet 1499.
+Warning:  Polygon 1 has two identical verts in facet 1503.
+Warning:  Polygon 1 has two identical verts in facet 1505.
+Warning:  Polygon 1 has two identical verts in facet 1509.
+Warning:  Polygon 1 has two identical verts in facet 1512.
+Warning:  Polygon 1 has two identical verts in facet 1514.
+Warning:  Polygon 1 has two identical verts in facet 1518.
+Warning:  Polygon 1 has two identical verts in facet 1522.
+Warning:  Polygon 1 has two identical verts in facet 1527.
+Warning:  Polygon 1 has two identical verts in facet 1536.
+Warning:  Polygon 1 has two identical verts in facet 1539.
+Warning:  Polygon 1 has two identical verts in facet 1541.
+Warning:  Polygon 1 has two identical verts in facet 1546.
+Warning:  Polygon 1 has two identical verts in facet 1548.
+Warning:  Polygon 1 has two identical verts in facet 1551.
+Warning:  Polygon 1 has two identical verts in facet 1554.
+Warning:  Polygon 1 has two identical verts in facet 1556.
+Warning:  Polygon 1 has two identical verts in facet 1559.
+Warning:  Polygon 1 has two identical verts in facet 1572.
+Warning:  Polygon 1 has two identical verts in facet 1574.
+Warning:  Polygon 1 has two identical verts in facet 1577.
+Warning:  Polygon 1 has two identical verts in facet 1584.
+Warning:  Polygon 1 has two identical verts in facet 1599.
+Warning:  Polygon 1 has two identical verts in facet 1601.
+Warning:  Polygon 1 has two identical verts in facet 1604.
+Warning:  Polygon 1 has two identical verts in facet 1609.
+Warning:  Polygon 1 has two identical verts in facet 1613.
+Warning:  Polygon 1 has two identical verts in facet 1621.
+Warning:  Polygon 1 has two identical verts in facet 1624.
+Warning:  Polygon 1 has two identical verts in facet 1627.
+Warning:  Polygon 1 has two identical verts in facet 1629.
+Warning:  Polygon 1 has two identical verts in facet 1634.
+Warning:  Polygon 1 has two identical verts in facet 1641.
+Warning:  Polygon 1 has two identical verts in facet 1644.
+Warning:  Polygon 1 has two identical verts in facet 1648.
+Warning:  Polygon 1 has two identical verts in facet 1651.
+Warning:  Polygon 1 has two identical verts in facet 1655.
+Warning:  Polygon 1 has two identical verts in facet 1658.
+Warning:  Polygon 1 has two identical verts in facet 1660.
+Warning:  Polygon 1 has two identical verts in facet 1663.
+Warning:  Polygon 1 has two identical verts in facet 1671.
+Warning:  Polygon 1 has two identical verts in facet 1673.
+Warning:  Polygon 1 has two identical verts in facet 1677.
+Warning:  Polygon 1 has two identical verts in facet 1679.
+Warning:  Polygon 1 has two identical verts in facet 1690.
+Warning:  Polygon 1 has two identical verts in facet 1694.
+Warning:  Polygon 1 has two identical verts in facet 1696.
+Warning:  Polygon 1 has two identical verts in facet 1698.
+Warning:  Polygon 1 has two identical verts in facet 1700.
+Warning:  Polygon 1 has two identical verts in facet 1721.
+Warning:  Polygon 1 has two identical verts in facet 1731.
+Warning:  Polygon 1 has two identical verts in facet 1733.
+Warning:  Polygon 1 has two identical verts in facet 1740.
+Warning:  Polygon 1 has two identical verts in facet 1748.
+Warning:  Polygon 1 has two identical verts in facet 1752.
+Warning:  Polygon 1 has two identical verts in facet 1755.
+Warning:  Polygon 1 has two identical verts in facet 1757.
+Warning:  Polygon 1 has two identical verts in facet 1762.
+Warning:  Polygon 1 has two identical verts in facet 1765.
+Warning:  Polygon 1 has two identical verts in facet 1768.
+Warning:  Polygon 1 has two identical verts in facet 1774.
+Warning:  Polygon 1 has two identical verts in facet 1785.
+Warning:  Polygon 1 has two identical verts in facet 1795.
+Warning:  Polygon 1 has two identical verts in facet 1797.
+Warning:  Polygon 1 has two identical verts in facet 1804.
+Warning:  Polygon 1 has two identical verts in facet 1815.
+Warning:  Polygon 1 has two identical verts in facet 1818.
+Warning:  Polygon 1 has two identical verts in facet 1820.
+Warning:  Polygon 1 has two identical verts in facet 1822.
+Warning:  Polygon 1 has two identical verts in facet 1827.
+Warning:  Polygon 1 has two identical verts in facet 1832.
+Warning:  Polygon 1 has two identical verts in facet 1834.
+Warning:  Polygon 1 has two identical verts in facet 1836.
+Warning:  Polygon 1 has two identical verts in facet 1838.
+Warning:  Polygon 1 has two identical verts in facet 1849.
+Warning:  Polygon 1 has two identical verts in facet 1852.
+Warning:  Polygon 1 has two identical verts in facet 1856.
+Warning:  Polygon 1 has two identical verts in facet 1860.
+Warning:  Polygon 1 has two identical verts in facet 1862.
+Warning:  Polygon 1 has two identical verts in facet 1868.
+Warning:  Polygon 1 has two identical verts in facet 1878.
+Warning:  Polygon 1 has two identical verts in facet 1893.
+Warning:  Polygon 1 has two identical verts in facet 1901.
+Warning:  Polygon 1 has two identical verts in facet 1912.
+Warning:  Polygon 1 has two identical verts in facet 1923.
+Warning:  Polygon 1 has two identical verts in facet 1925.
+Warning:  Polygon 1 has two identical verts in facet 1927.
+Warning:  Polygon 1 has two identical verts in facet 1930.
+Warning:  Polygon 1 has two identical verts in facet 1933.
+Warning:  Polygon 1 has two identical verts in facet 1937.
+Warning:  Polygon 1 has two identical verts in facet 1941.
+Warning:  Polygon 1 has two identical verts in facet 1944.
+Warning:  Polygon 1 has two identical verts in facet 1947.
+Warning:  Polygon 1 has two identical verts in facet 1949.
+Warning:  Polygon 1 has two identical verts in facet 1955.
+Warning:  Polygon 1 has two identical verts in facet 1957.
+Warning:  Polygon 1 has two identical verts in facet 1959.
+Warning:  Polygon 1 has two identical verts in facet 1961.
+Warning:  Polygon 1 has two identical verts in facet 1969.
+Warning:  Polygon 1 has two identical verts in facet 1971.
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.515055,0.0836538).
+  Segment 1: [771, 1214] #-1 (1920)
+  Segment 2: [65, 64] #-1 (72)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15468
+327, 631
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.704392,0.101731).
+  Segment 1: [300, 256] #-1 (594)
+  Segment 2: [305, 314] #-1 (622)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 11765
+990, 1964
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.337038,0.272961).
+  Segment 1: [844, 843] #-1 (1564)
+  Segment 2: [830, 987] #-1 (1920)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17282
+715, 1400
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.485388,0.198457).
+  Segment 1: [568, 301] #-1 (1107)
+  Segment 2: [560, 542] #-1 (973)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7589
+404, 614
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0602467,0.738711,0.217495).
+  Segment: [90,75] #-1 (141)
+  Facet:   [65,66,15] #152
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6199
+1605, 3116
+Delaunizing vertices...
+Warning:  Point #42 is coincident with #31. Ignored!
+Warning:  Point #60 is coincident with #36. Ignored!
+Warning:  Point #59 is coincident with #12. Ignored!
+Warning:  Point #27 is coincident with #53. Ignored!
+Warning:  Point #70 is coincident with #38. Ignored!
+Warning:  Point #34 is coincident with #69. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.319842,0.375423).
+  Segment 1: [1388, 1386] #-1 (2637)
+  Segment 2: [1542, 1543] #-1 (3000)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10560
+939, 1786
+Delaunizing vertices...
+Warning:  Point #15 is coincident with #27. Ignored!
+Warning:  Point #33 is coincident with #886. Ignored!
+Warning:  Point #179 is coincident with #163. Ignored!
+Warning:  Point #201 is coincident with #217. Ignored!
+Warning:  Point #1 is coincident with #2. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 1.
+Warning:  Polygon 1 has two identical verts in facet 14.
+Warning:  Polygon 1 has two identical verts in facet 32.
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.320193,0.609828,-0.00773061).
+  Segment: [556,552] #-1 (1003)
+  Facet:   [648,543,545] #1117
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14461
+3654, 7246
+Delaunizing vertices...
+Warning:  Point #1658 is coincident with #1669. Ignored!
+Delaunay seconds:  0.03125
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 2598.
+Warning:  Polygon 1 has two identical verts in facet 5826.
+Found two overlapping facets.
+  1st: [232, 229, 233] #351
+  2nd: [232, 229, 233] #352
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18366
+976, 1856
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.139917,0.228189,-9.5e-05).
+  Segment 1: [403, 374] #-1 (688)
+  Segment 2: [82, 80] #-1 (231)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15687
+877, 1663
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.013963,0.599251,0.233036).
+  Segment: [712,710] #-1 (1182)
+  Facet:   [767,202,200] #1280
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10503
+1151, 2095
+Delaunizing vertices...
+Warning:  Point #919 is coincident with #872. Ignored!
+Warning:  Point #362 is coincident with #86. Ignored!
+Warning:  Point #85 is coincident with #137. Ignored!
+Warning:  Point #869 is coincident with #887. Ignored!
+Warning:  Point #879 is coincident with #920. Ignored!
+Warning:  Point #293 is coincident with #263. Ignored!
+Warning:  Point #300 is coincident with #708. Ignored!
+Warning:  Point #598 is coincident with #41. Ignored!
+Warning:  Point #587 is coincident with #40. Ignored!
+Warning:  Point #882 is coincident with #917. Ignored!
+Warning:  Point #951 is coincident with #918. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [884, 889, 1091] #1958
+  2nd: [884, 889, 1091] #1963
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10455
+347, 648
+Delaunizing vertices...
+Warning:  Point #260 is coincident with #224. Ignored!
+Warning:  Point #261 is coincident with #228. Ignored!
+Warning:  Point #262 is coincident with #237. Ignored!
+Warning:  Point #257 is coincident with #226. Ignored!
+Warning:  Point #238 is coincident with #266. Ignored!
+Warning:  Point #250 is coincident with #267. Ignored!
+Warning:  Point #183 is coincident with #222. Ignored!
+Warning:  Point #247 is coincident with #268. Ignored!
+Warning:  Point #240 is coincident with #265. Ignored!
+Warning:  Point #258 is coincident with #225. Ignored!
+Warning:  Point #235 is coincident with #264. Ignored!
+Warning:  Point #227 is coincident with #259. Ignored!
+Warning:  Point #263 is coincident with #233. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two nearly self-intersecting facets.
+  1st: [225, 226, 232] #378
+  2nd: [225, 226, 234] #415
+The dihedral angle between them is 6.19324e-05 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7579
+394, 606
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.124746,0.497648,0.0584122).
+  Segment: [312,317] #-1 (564)
+  Facet:   [75,86,455] #84
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14472
+2488, 4812
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.693657,0.122356).
+  Segment 1: [1360, 1361] #-1 (2611)
+  Segment 2: [583, 543] #-1 (1651)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 19193
+172, 313
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.000688677,0.275036,-0.0840815).
+  Segment: [4,5] #-1 (4)
+  Facet:   [136,139,138] #251
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16514
+816, 1496
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.73253,0.124617).
+  Segment 1: [475, 414] #-1 (796)
+  Segment 2: [226, 809] #-1 (370)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1323
+773, 1519
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.147577,0.480727).
+  Segment 1: [715, 720] #-1 (1334)
+  Segment 2: [238, 47] #-1 (1173)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1277
+731, 1430
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.140324,-0.336878).
+  Segment 1: [554, 555] #-1 (836)
+  Segment 2: [547, 545] #-1 (823)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7581
+423, 642
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.139873,0.335637,0.00116934).
+  Segment: [146,149] #-1 (473)
+  Facet:   [392,401,402] #637
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17260
+152, 262
+Delaunizing vertices...
+Warning:  Point #140 is coincident with #21. Ignored!
+Warning:  Point #113 is coincident with #49. Ignored!
+Warning:  Point #52 is coincident with #89. Ignored!
+Warning:  Point #45 is coincident with #132. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.000257009,0.175193,-0.017758).
+  Segment: [14,44] #-1 (42)
+  Facet:   [9,32,33] #26
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17279
+677, 1321
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.164428,-0.0018847).
+  Segment 1: [434, 436] #-1 (658)
+  Segment 2: [564, 563] #-1 (943)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7771
+312, 480
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.542267,0.0510806).
+  Segment 1: [213, 188] #-1 (357)
+  Segment 2: [231, 224] #-1 (321)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15458
+808, 1598
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.624507,0.468231).
+  Segment 1: [151, 160] #-1 (197)
+  Segment 2: [330, 383] #-1 (746)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16261
+682, 1346
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.219388,-0.131652).
+  Segment 1: [434, 298] #-1 (870)
+  Segment 2: [527, 528] #-1 (892)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14558
+1548, 2854
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [1023, 1020, 1022] #1673
+  2nd: [1023, 1020, 1022] #2763
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 11780
+777, 1512
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.371815,0.408883).
+  Segment 1: [767, 773] #-1 (1506)
+  Segment 2: [528, 173] #-1 (890)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10597
+865, 1658
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.527865,0.459771).
+  Segment 1: [106, 3] #-1 (317)
+  Segment 2: [182, 184] #-1 (359)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14703
+808, 1598
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.5026,0.15003).
+  Segment 1: [240, 241] #-1 (342)
+  Segment 2: [248, 293] #-1 (439)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16351
+1291, 2532
+Delaunizing vertices...
+Warning:  Point #8 is coincident with #201. Ignored!
+Warning:  Point #388 is coincident with #259. Ignored!
+Warning:  Point #2 is coincident with #210. Ignored!
+Warning:  Point #181 is coincident with #160. Ignored!
+Warning:  Point #316 is coincident with #366. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 196.
+Warning:  Polygon 1 has two identical verts in facet 197.
+Warning:  Polygon 1 has two identical verts in facet 221.
+Warning:  Polygon 1 has two identical verts in facet 222.
+Warning:  Polygon 1 has two identical verts in facet 242.
+Warning:  Polygon 1 has two identical verts in facet 243.
+Warning:  Polygon 1 has two identical verts in facet 575.
+Warning:  Polygon 1 has two identical verts in facet 576.
+Warning:  Polygon 1 has two identical verts in facet 617.
+Warning:  Polygon 1 has two identical verts in facet 618.
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.525934,0.383145).
+  Segment 1: [1193, 1174] #-1 (2177)
+  Segment 2: [1059, 1072] #-1 (2452)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1308
+852, 1582
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.148969,0.090357,0.15544).
+  Segment 1: [288, 287] #-1 (334)
+  Segment 2: [136, 164] #-1 (116)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18649
+1366, 2692
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.297548,-0.223754).
+  Segment 1: [1099, 1098] #-1 (2207)
+  Segment 2: [764, 765] #-1 (1708)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2017
+785, 1496
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.46766,0.255847).
+  Segment 1: [615, 568] #-1 (1152)
+  Segment 2: [582, 5] #-1 (1021)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8248
+626, 1110
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.846594,0.0149381).
+  Segment 1: [370, 367] #-1 (615)
+  Segment 2: [608, 609] #-1 (1052)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17276
+682, 1335
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0171469,0.277503,-0.181557).
+  Segment: [280,276] #-1 (413)
+  Facet:   [233,235,236] #353
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7584
+425, 688
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.123665,0.21155,0.0937336).
+  Segment: [263,264] #-1 (372)
+  Facet:   [165,168,171] #400
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 2035
+479, 960
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.180546,0.0572883,0.0225402).
+  Segment: [402,317] #-1 (760)
+  Facet:   [374,372,393] #701
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14751
+798, 1594
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0600498,0.213397,0.313748).
+  Segment: [607,608] #-1 (1590)
+  Facet:   [5,4,0] #3
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6384
+1516, 2855
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.115875,0.117496,-0.025009).
+  Segment: [1486,1484] #-1 (2763)
+  Facet:   [1551,1421,1447] #2695
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3318
+2114, 4107
+Delaunizing vertices...
+Delaunay seconds:  0.03125
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.275664,0.43062).
+  Segment 1: [144, 1057] #-1 (1644)
+  Segment 2: [1369, 1020] #-1 (2150)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13289
+789, 1568
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.648175,-0.00841743).
+  Segment 1: [25, 34] #-1 (69)
+  Segment 2: [631, 503] #-1 (1041)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10446
+346, 694
+Delaunizing vertices...
+Warning:  Point #116 is coincident with #132. Ignored!
+Warning:  Point #128 is coincident with #114. Ignored!
+Warning:  Point #344 is coincident with #143. Ignored!
+Warning:  Point #232 is coincident with #222. Ignored!
+Warning:  Point #233 is coincident with #225. Ignored!
+Warning:  Point #345 is coincident with #142. Ignored!
+Warning:  Point #343 is coincident with #154. Ignored!
+Warning:  Point #231 is coincident with #217. Ignored!
+Warning:  Point #214 is coincident with #230. Ignored!
+Warning:  Point #113 is coincident with #125. Ignored!
+Warning:  Point #133 is coincident with #117. Ignored!
+Warning:  Point #131 is coincident with #115. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [17, 11, 222] #407
+  2nd: [17, 11, 222] #428
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15012
+557, 1102
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.000637828,0.920997,0.0425504).
+  Segment: [526,123] #-1 (1004)
+  Facet:   [541,537,536] #1037
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3963
+351, 692
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.424406,-0.02408).
+  Segment 1: [310, 309] #-1 (374)
+  Segment 2: [180, 6] #-1 (537)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 6178
+993, 1643
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-6.93889e-18,0.368383,0.0811755).
+  Segment 1: [828, 829] #-1 (1393)
+  Segment 2: [855, 854] #-1 (1417)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15196
+2036, 3870
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.000198,0.669263,-0.0801399).
+  Segment 1: [2024, 1971] #-1 (3833)
+  Segment 2: [1879, 1742] #-1 (3759)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 12108
+668, 1280
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.066925,0.197145,0.00392564).
+  Segment 1: [29, 148] #-1 (195)
+  Segment 2: [453, 43] #-1 (704)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9000
+637, 1240
+Delaunizing vertices...
+Warning:  Point #543 is coincident with #558. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.0548406,0.492616,-0.108313).
+  Segment 1: [606, 605] #-1 (1166)
+  Segment 2: [633, 558] #-1 (1238)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 5400
+1732, 3432
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0476839,0.322788,0.403616).
+  Segment: [399,544] #-1 (805)
+  Facet:   [578,602,584] #812
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14466
+3412, 6482
+Delaunizing vertices...
+Warning:  Point #1698 is coincident with #1704. Ignored!
+Warning:  Point #853 is coincident with #847. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.66687,0.405079).
+  Segment 1: [1437, 1438] #-1 (3659)
+  Segment 2: [2679, 2678] #-1 (4480)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1286
+791, 1498
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (8.67362e-19,0.296784,-0.426945).
+  Segment 1: [114, 98] #-1 (318)
+  Segment 2: [53, 153] #-1 (486)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14509
+2416, 4814
+Delaunizing vertices...
+Warning:  Point #2039 is coincident with #2069. Ignored!
+Warning:  Point #414 is coincident with #285. Ignored!
+Warning:  Point #415 is coincident with #287. Ignored!
+Warning:  Point #417 is coincident with #313. Ignored!
+Warning:  Point #290 is coincident with #416. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 713.
+Warning:  Polygon 1 has two identical verts in facet 714.
+Warning:  Polygon 1 has two identical verts in facet 715.
+Warning:  Polygon 1 has two identical verts in facet 716.
+Warning:  Polygon 1 has two identical verts in facet 720.
+Warning:  Polygon 1 has two identical verts in facet 721.
+Found two overlapping facets.
+  1st: [59, 57, 56] #80
+  2nd: [59, 57, 56] #652
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7554
+799, 1504
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [83, 82, 386] #551
+  2nd: [83, 82, 386] #791
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7593
+412, 650
+Delaunizing vertices...
+Warning:  Point #76 is coincident with #98. Ignored!
+Warning:  Point #55 is coincident with #26. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.160556,0.183338,0.0755271).
+  Segment: [240,322] #-1 (477)
+  Facet:   [362,377,378] #576
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17263
+117, 210
+Delaunizing vertices...
+Warning:  Point #75 is coincident with #98. Ignored!
+Warning:  Point #103 is coincident with #72. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0378499,0.764235,0.00499743).
+  Segment: [18,69] #-1 (148)
+  Facet:   [34,35,36] #33
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3789
+2345, 4616
+Delaunizing vertices...
+Warning:  Point #937 is coincident with #953. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.163956,0.331046).
+  Segment 1: [1824, 1823] #-1 (3543)
+  Segment 2: [1302, 1307] #-1 (2848)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 8320
+769, 1528
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0.015625
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+Jettisoning redundant points.
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 769
+  Input facets: 1528
+  Input segments: 2294
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 931
+  Mesh tetrahedra: 3025
+  Mesh faces: 6813
+  Mesh faces on exterior boundary: 1526
+  Mesh faces on input facets: 1526
+  Mesh edges on input segments: 2289
+  Steiner points inside domain: 166
+
+931, 3025, 1526
+model_id 1347
+866, 1614
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-0.287551,0.478091,0.152444).
+  Segment 1: [424, 404] #-1 (621)
+  Segment 2: [115, 114] #-1 (149)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14726
+562, 1090
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.312479,0.397495,0.348776).
+  Segment: [395,391] #-1 (631)
+  Facet:   [82,85,83] #100
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3535
+1773, 3193
+Delaunizing vertices...
+Warning:  Point #185 is coincident with #644. Ignored!
+Warning:  Point #325 is coincident with #313. Ignored!
+Warning:  Point #34 is coincident with #316. Ignored!
+Warning:  Point #545 is coincident with #321. Ignored!
+Warning:  Point #142 is coincident with #143. Ignored!
+Warning:  Point #77 is coincident with #144. Ignored!
+Warning:  Point #315 is coincident with #319. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 186.
+Warning:  Polygon 1 has two identical verts in facet 187.
+Warning:  Polygon 1 has two identical verts in facet 188.
+Warning:  Polygon 1 has two identical verts in facet 189.
+Warning:  Polygon 1 has two identical verts in facet 390.
+Warning:  Polygon 1 has two identical verts in facet 391.
+Warning:  Polygon 1 has two identical verts in facet 413.
+Warning:  Polygon 1 has two identical verts in facet 884.
+Warning:  Polygon 1 has two identical verts in facet 1188.
+Warning:  Polygon 1 has two identical verts in facet 1189.
+Found two overlapping facets.
+  1st: [316, 32, 710] #1420
+  2nd: [316, 32, 710] #1430
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14425
+2618, 5136
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.088041,0.212664,0.180418).
+  Segment: [1439,1438] #-1 (4844)
+  Facet:   [2543,2549,2550] #4897
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18020
+874, 1546
+Delaunizing vertices...
+Warning:  Point #798 is coincident with #764. Ignored!
+Warning:  Point #704 is coincident with #752. Ignored!
+Warning:  Point #715 is coincident with #749. Ignored!
+Warning:  Point #700 is coincident with #702. Ignored!
+Warning:  Point #717 is coincident with #701. Ignored!
+Warning:  Point #762 is coincident with #782. Ignored!
+Warning:  Point #763 is coincident with #760. Ignored!
+Warning:  Point #781 is coincident with #794. Ignored!
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.551521,0.0677245).
+  Segment 1: [352, 371] #-1 (944)
+  Segment 2: [504, 491] #-1 (951)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9172
+6656, 13304
+Delaunizing vertices...
+Delaunay seconds:  0.046875
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.856939,0.156464).
+  Segment 1: [686, 683] #-1 (1074)
+  Segment 2: [4521, 4524] #-1 (8973)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3790
+2586, 5006
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0738707,0.0968015,-0.269245).
+  Segment: [543,548] #-1 (950)
+  Facet:   [590,591,656] #1161
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13940
+2045, 3978
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.481711,0.373998).
+  Segment 1: [555, 876] #-1 (1819)
+  Segment 2: [48, 49] #-1 (786)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 9778
+1589, 3098
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.285055,0.45571).
+  Segment 1: [1480, 1499] #-1 (2526)
+  Segment 2: [174, 176] #-1 (152)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1642
+341, 660
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [57, 56, 236] #397
+  2nd: [57, 56, 236] #627
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14179
+458, 814
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [184, 185, 187] #340
+  2nd: [184, 185, 187] #344
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 11814
+1739, 3474
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.264436,0.498497).
+  Segment 1: [307, 306] #-1 (713)
+  Segment 2: [894, 895] #-1 (1825)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 18596
+151, 250
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-6e-06,0.154612,-0.112004).
+  Segment 1: [52, 54] #-1 (83)
+  Segment 2: [111, 118] #-1 (211)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 3540
+1088, 1969
+Delaunizing vertices...
+Warning:  Point #1039 is coincident with #1038. Ignored!
+Warning:  Point #1043 is coincident with #1038. Ignored!
+Warning:  Point #1037 is coincident with #1038. Ignored!
+Warning:  Point #969 is coincident with #974. Ignored!
+Warning:  Point #961 is coincident with #966. Ignored!
+Warning:  Point #1051 is coincident with #1046. Ignored!
+Warning:  Point #1047 is coincident with #1046. Ignored!
+Warning:  Point #1045 is coincident with #1046. Ignored!
+Warning:  Point #976 is coincident with #970. Ignored!
+Warning:  Point #971 is coincident with #970. Ignored!
+Warning:  Point #972 is coincident with #970. Ignored!
+Warning:  Point #1049 is coincident with #1044. Ignored!
+Warning:  Point #1036 is coincident with #1041. Ignored!
+Warning:  Point #963 is coincident with #964. Ignored!
+Warning:  Point #962 is coincident with #964. Ignored!
+Warning:  Point #968 is coincident with #964. Ignored!
+Warning:  Point #956 is coincident with #952. Ignored!
+Warning:  Point #955 is coincident with #952. Ignored!
+Warning:  Point #1054 is coincident with #1060. Ignored!
+Warning:  Point #957 is coincident with #952. Ignored!
+Warning:  Point #1063 is coincident with #1069. Ignored!
+Warning:  Point #1053 is coincident with #1059. Ignored!
+Warning:  Point #1068 is coincident with #1062. Ignored!
+Warning:  Point #999 is coincident with #998. Ignored!
+Warning:  Point #1000 is coincident with #998. Ignored!
+Warning:  Point #995 is coincident with #998. Ignored!
+Warning:  Point #996 is coincident with #1002. Ignored!
+Warning:  Point #1061 is coincident with #1065. Ignored!
+Warning:  Point #1066 is coincident with #1065. Ignored!
+Warning:  Point #1064 is coincident with #1065. Ignored!
+Warning:  Point #954 is coincident with #960. Ignored!
+Warning:  Point #997 is coincident with #1003. Ignored!
+Warning:  Point #953 is coincident with #959. Ignored!
+Warning:  Point #1057 is coincident with #1055. Ignored!
+Warning:  Point #1052 is coincident with #1055. Ignored!
+Warning:  Point #1056 is coincident with #1055. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 1835.
+Warning:  Polygon 1 has two identical verts in facet 1836.
+Warning:  Polygon 1 has two identical verts in facet 1836.
+Warning:  Polygon 1 has two identical verts in facet 1836.
+Warning:  Polygon 1 has two identical verts in facet 1837.
+Warning:  Polygon 1 has two identical verts in facet 1837.
+Warning:  Polygon 1 has two identical verts in facet 1837.
+Warning:  Polygon 1 has two identical verts in facet 1838.
+Warning:  Polygon 1 has two identical verts in facet 1838.
+Warning:  Polygon 1 has two identical verts in facet 1838.
+Warning:  Polygon 1 has two identical verts in facet 1839.
+Warning:  Polygon 1 has two identical verts in facet 1840.
+Warning:  Polygon 1 has two identical verts in facet 1843.
+Warning:  Polygon 1 has two identical verts in facet 1844.
+Warning:  Polygon 1 has two identical verts in facet 1844.
+Warning:  Polygon 1 has two identical verts in facet 1844.
+Warning:  Polygon 1 has two identical verts in facet 1845.
+Warning:  Polygon 1 has two identical verts in facet 1845.
+Warning:  Polygon 1 has two identical verts in facet 1845.
+Warning:  Polygon 1 has two identical verts in facet 1846.
+Warning:  Polygon 1 has two identical verts in facet 1846.
+Warning:  Polygon 1 has two identical verts in facet 1846.
+Warning:  Polygon 1 has two identical verts in facet 1847.
+Warning:  Polygon 1 has two identical verts in facet 1850.
+Warning:  Polygon 1 has two identical verts in facet 1852.
+Warning:  Polygon 1 has two identical verts in facet 1853.
+Warning:  Polygon 1 has two identical verts in facet 1853.
+Warning:  Polygon 1 has two identical verts in facet 1853.
+Warning:  Polygon 1 has two identical verts in facet 1854.
+Warning:  Polygon 1 has two identical verts in facet 1854.
+Warning:  Polygon 1 has two identical verts in facet 1854.
+Warning:  Polygon 1 has two identical verts in facet 1855.
+Warning:  Polygon 1 has two identical verts in facet 1855.
+Warning:  Polygon 1 has two identical verts in facet 1855.
+Warning:  Polygon 1 has two identical verts in facet 1856.
+Warning:  Polygon 1 has two identical verts in facet 1859.
+Warning:  Polygon 1 has two identical verts in facet 1878.
+Warning:  Polygon 1 has two identical verts in facet 1879.
+Warning:  Polygon 1 has two identical verts in facet 1879.
+Warning:  Polygon 1 has two identical verts in facet 1879.
+Warning:  Polygon 1 has two identical verts in facet 1880.
+Warning:  Polygon 1 has two identical verts in facet 1880.
+Warning:  Polygon 1 has two identical verts in facet 1880.
+Warning:  Polygon 1 has two identical verts in facet 1881.
+Warning:  Polygon 1 has two identical verts in facet 1881.
+Warning:  Polygon 1 has two identical verts in facet 1881.
+Warning:  Polygon 1 has two identical verts in facet 1882.
+Warning:  Polygon 1 has two identical verts in facet 1883.
+Warning:  Polygon 1 has two identical verts in facet 1918.
+Warning:  Polygon 1 has two identical verts in facet 1919.
+Warning:  Polygon 1 has two identical verts in facet 1919.
+Warning:  Polygon 1 has two identical verts in facet 1919.
+Warning:  Polygon 1 has two identical verts in facet 1920.
+Warning:  Polygon 1 has two identical verts in facet 1920.
+Warning:  Polygon 1 has two identical verts in facet 1920.
+Warning:  Polygon 1 has two identical verts in facet 1921.
+Warning:  Polygon 1 has two identical verts in facet 1921.
+Warning:  Polygon 1 has two identical verts in facet 1921.
+Warning:  Polygon 1 has two identical verts in facet 1922.
+Warning:  Polygon 1 has two identical verts in facet 1925.
+Warning:  Polygon 1 has two identical verts in facet 1927.
+Warning:  Polygon 1 has two identical verts in facet 1928.
+Warning:  Polygon 1 has two identical verts in facet 1928.
+Warning:  Polygon 1 has two identical verts in facet 1928.
+Warning:  Polygon 1 has two identical verts in facet 1929.
+Warning:  Polygon 1 has two identical verts in facet 1929.
+Warning:  Polygon 1 has two identical verts in facet 1929.
+Warning:  Polygon 1 has two identical verts in facet 1930.
+Warning:  Polygon 1 has two identical verts in facet 1930.
+Warning:  Polygon 1 has two identical verts in facet 1930.
+Warning:  Polygon 1 has two identical verts in facet 1931.
+Warning:  Polygon 1 has two identical verts in facet 1934.
+Warning:  Polygon 1 has two identical verts in facet 1937.
+Warning:  Polygon 1 has two identical verts in facet 1938.
+Warning:  Polygon 1 has two identical verts in facet 1938.
+Warning:  Polygon 1 has two identical verts in facet 1938.
+Warning:  Polygon 1 has two identical verts in facet 1939.
+Warning:  Polygon 1 has two identical verts in facet 1939.
+Warning:  Polygon 1 has two identical verts in facet 1939.
+Warning:  Polygon 1 has two identical verts in facet 1940.
+Warning:  Polygon 1 has two identical verts in facet 1940.
+Warning:  Polygon 1 has two identical verts in facet 1940.
+Warning:  Polygon 1 has two identical verts in facet 1941.
+Warning:  Polygon 1 has two identical verts in facet 1942.
+Warning:  Polygon 1 has two identical verts in facet 1946.
+Warning:  Polygon 1 has two identical verts in facet 1947.
+Warning:  Polygon 1 has two identical verts in facet 1947.
+Warning:  Polygon 1 has two identical verts in facet 1947.
+Warning:  Polygon 1 has two identical verts in facet 1948.
+Warning:  Polygon 1 has two identical verts in facet 1948.
+Warning:  Polygon 1 has two identical verts in facet 1948.
+Warning:  Polygon 1 has two identical verts in facet 1949.
+Warning:  Polygon 1 has two identical verts in facet 1949.
+Warning:  Polygon 1 has two identical verts in facet 1949.
+Warning:  Polygon 1 has two identical verts in facet 1950.
+Warning:  Polygon 1 has two identical verts in facet 1951.
+Found two overlapping facets.
+  1st: [762, 763, 764] #1512
+  2nd: [762, 763, 764] #1575
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1434
+1198, 1966
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0365559,0.529189,0.00230724).
+  Segment: [190,189] #-1 (1640)
+  Facet:   [986,982,975] #1561
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 10017
+702, 1384
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.0446904,0.669204,0.149192).
+  Segment: [616,625] #-1 (1227)
+  Facet:   [659,661,660] #1291
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14781
+4208, 8326
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Found two overlapping facets.
+  1st: [20, 21, 22] #29
+  2nd: [20, 21, 22] #8325
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15671
+778, 1498
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0.000169,0.234841,-0.179665).
+  Segment 1: [156, 148] #-1 (241)
+  Segment 2: [437, 436] #-1 (850)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 958
+478, 868
+Delaunizing vertices...
+Warning:  Point #4 is coincident with #12. Ignored!
+Warning:  Point #2 is coincident with #61. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A vertex lies in a segment.
+  Vertex:  [315] (-0.013173,0.090854,-0.20168).
+  Segment: [314, 306] #-1 (369)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1443
+1377, 2376
+Delaunizing vertices...
+Warning:  Point #569 is coincident with #575. Ignored!
+Delaunay seconds:  0
+Creating surface mesh ...
+Warning:  Polygon 1 has two identical verts in facet 841.
+Warning:  Polygon 1 has two identical verts in facet 842.
+Found two nearly self-intersecting facets.
+  1st: [560, 559, 554] #825
+  2nd: [560, 559, 566] #831
+The dihedral angle between them is 0.0897951 degree.
+Hint:  You may use -p/# to decrease the dihedral angle  tolerance 0.1 (degree).
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 17537
+514, 1024
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+Boundary recovery seconds:  0
+Removing exterior tetrahedra ...
+Exterior tets removal seconds:  0
+Recovering Delaunayness...
+Delaunay recovery seconds:  0
+Refining mesh...
+Refinement seconds:  0
+Optimizing mesh...
+Optimization seconds:  0
+
+Writing nodes.
+Writing elements.
+Writing faces.
+Writing edges.
+
+Output seconds:  0
+Total running seconds:  0.015625
+
+Statistics:
+
+  Input points: 514
+  Input facets: 1024
+  Input segments: 1536
+  Input holes: 0
+  Input regions: 0
+
+  Mesh points: 643
+  Mesh tetrahedra: 2161
+  Mesh faces: 4834
+  Mesh faces on exterior boundary: 1024
+  Mesh faces on input facets: 1024
+  Mesh edges on input segments: 1536
+  Steiner points inside domain: 129
+
+643, 2161, 1024
+model_id 15472
+911, 1720
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.17213,0.0159511,0.211763).
+  Segment: [497,498] #-1 (853)
+  Facet:   [537,535,536] #823
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 4366
+2639, 5120
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.157381,-0.311996).
+  Segment 1: [1512, 1525] #-1 (3023)
+  Segment 2: [1192, 1196] #-1 (2393)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 14471
+3313, 6070
+Delaunizing vertices...
+Delaunay seconds:  0.03125
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.888546,0.0612585).
+  Segment 1: [1031, 1032] #-1 (4033)
+  Segment 2: [1178, 1191] #-1 (1825)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 432
+561, 1010
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.114515,0.393536,0.00111854).
+  Segment: [63,62] #-1 (103)
+  Facet:   [146,142,141] #263
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 16718
+377, 750
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.390064,0.465534).
+  Segment 1: [376, 351] #-1 (731)
+  Segment 2: [363, 362] #-1 (615)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1262
+793, 1558
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0.015625
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (3.46945e-18,0.00155271,0.167982).
+  Segment 1: [580, 625] #-1 (1065)
+  Segment 2: [558, 603] #-1 (952)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 1418
+1332, 2447
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (0.00250342,0.942506,0.0724138).
+  Segment: [1114,1115] #-1 (2047)
+  Facet:   [1144,1145,1146] #2087
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 13260
+2565, 5042
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (0,0.493626,0.142997).
+  Segment 1: [1810, 1815] #-1 (2854)
+  Segment 2: [1901, 1876] #-1 (2981)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 7596
+288, 470
+Delaunizing vertices...
+Delaunay seconds:  0.015625
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  A segment and a facet intersect at point (-0.0688974,0.0810919,-0.00712833).
+  Segment: [182,183] #-1 (214)
+  Facet:   [145,161,142] #197
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+model_id 15631
+275, 472
+Delaunizing vertices...
+Delaunay seconds:  0
+Creating surface mesh ...
+Surface mesh seconds:  0
+Recovering boundaries...
+PLC Error:  Two segments intersect at point (-8.8e-05,0.764736,0.0832217).
+  Segment 1: [230, 254] #-1 (418)
+  Segment 2: [260, 259] #-1 (422)
+^tetrahedralize: TETGEN CRASHED... KABOOOM!!!
+0, 0, 0
+

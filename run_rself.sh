@@ -1,0 +1,1 @@
+./build/r_self data/13.obj 13_r.obj

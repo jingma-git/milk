@@ -1,0 +1,1 @@
+./build/bbw_static /mnt/f/Dataset/RigNetv1/tet/8334.mesh /mnt/f/Dataset/RigNetv1/tgf/8334.tgf

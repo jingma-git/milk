@@ -58,6 +58,8 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/cmake)
 ### Adding libIGL: choose the path to your local copy libIGL
 include(libigl)
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/libigl/external/glad/include)
+
 if(LIBIGL_BUILD_TUTORIALS)
 	add_subdirectory(tutorial)
 endif()

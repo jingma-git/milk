@@ -13,7 +13,7 @@
 // the data
 
 #include <igl/igl_inline.h>
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 
 namespace igl
 {

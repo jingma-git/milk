@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 project(example)
 
-# set(CMAKE_BUILD_TYPE RELEASE)
+set(CMAKE_BUILD_TYPE RELEASE)
 # set(CMAKE_BUILD_TYPE DEBUG)
 
 message("-- CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}")
@@ -10,15 +10,19 @@ message("-- @CMAKE_CURRENT_LIST_DIR ${CMAKE_CURRENT_LIST_DIR}")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 message("-- CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}")
 
+
 # libigl
 option(LIBIGL_WITH_STATIC_LIBRARY    "Use libigl as static library" OFF)
 option(LIBIGL_WITH_OPENGL            "Use OpenGL"         ON)
 option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
 option(LIBIGL_WITH_TRIANGLE           "Use Triangle"      ON)
 option(LIBIGL_WITH_CGAL              "Use CGAL"           ON)
+option(LIBIGL_WITH_TETGEN            "Use Tetgen"                   ON)
 # option(LIBIGL_WITH_OPENGL_GLFW_IMGUI        "Use ImgGui"      ON)
 
+
 find_package(LIBIGL REQUIRED)
+
 
 # set(CGAL_DIR "/home/server/MaJing/cpp/CGAL-5.1-beta2")
 # find_package(CGAL REQUIRED)
@@ -27,11 +31,33 @@ find_package(LIBIGL REQUIRED)
 
 # find_package(OpenCV REQUIRED)
 
+
+include_directories(libigl/include/)
 # --------------------------------------Add your project files--------------------------------
 # ---------------------------Bounded Bihamonic Weights
-# include_directories(libigl/include/)
-# add_executable(main bbw.cpp)
-# target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
+add_executable(bbw bbw.cpp)
+target_link_libraries(bbw igl::core igl::opengl igl::opengl_glfw)
+
+add_executable(bbw_anim bbw_anim.cpp)
+target_link_libraries(bbw_anim igl::core igl::opengl igl::opengl_glfw)
+
+add_executable(bbw_static bbw_static.cpp)
+target_link_libraries(bbw_static igl::core igl::opengl igl::opengl_glfw)
+
+add_executable(tet tet.cpp)
+target_link_libraries(tet igl::core igl::opengl igl::opengl_glfw igl::tetgen)
+
+add_executable(show_tet show_tet.cpp)
+target_link_libraries(show_tet igl::core igl::opengl igl::opengl_glfw)
+
+add_executable(winding_number winding_number.cpp)
+target_link_libraries(winding_number igl::core igl::opengl igl::opengl_glfw igl::cgal)
+
+add_executable(run_bbw run_bbw.cpp)
+target_link_libraries(run_bbw igl::core igl::opengl igl::opengl_glfw igl::tetgen igl::cgal)
+
+add_executable(r_self remove_self_intersect.cpp)
+target_link_libraries(r_self igl::core igl::opengl igl::opengl_glfw igl::tetgen igl::cgal)
 
 
 # # ---------------------------Arap
@@ -79,8 +105,8 @@ find_package(LIBIGL REQUIRED)
 # add_executable(main laplace_equality_constraint.cpp)
 # target_link_libraries(main igl::core igl::opengl igl::opengl_glfw)
 
-add_executable(main boolean.cpp)
-target_link_libraries(main igl::core igl::cgal igl::opengl igl::opengl_glfw)
+# add_executable(main boolean.cpp)
+# target_link_libraries(main igl::core igl::cgal igl::opengl igl::opengl_glfw)
 
 
 # ---------------------------   Active set to solve In-Equality Constraint

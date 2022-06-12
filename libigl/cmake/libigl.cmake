@@ -358,10 +358,10 @@ if(LIBIGL_WITH_OPENGL)
   endif()
 
   # glad module
-  if(NOT TARGET glad)
+ # if(NOT TARGET glad)
     igl_download_glad()
     add_subdirectory(${LIBIGL_EXTERNAL}/glad glad)
-  endif()
+ # endif()
   target_link_libraries(igl_opengl ${IGL_SCOPE} glad)
 endif()
 
